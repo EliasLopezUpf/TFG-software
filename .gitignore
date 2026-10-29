@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entorno local y secretos
+.env
+.env.*
+!.env.example
+
+# Datos y resultados generados
+data/raw/*
+data/processed/*
+reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!reports/.gitkeep
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
