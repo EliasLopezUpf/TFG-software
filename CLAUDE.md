@@ -133,13 +133,14 @@ Do not assume that lack of online information means lack of activities.
 
 ## 11. Documentation
 
-Maintain the following documents:
+Maintain the following documents (all in `docs/`):
 
-- project_summary.md
-- research_log.md
-- decisions_log.md
-- data_sources.md
-- market_study_progress.md
+- docs/project_summary.md
+- docs/research_log.md
+- docs/decisions_log.md
+- docs/data_sources.md
+- docs/market_study_progress.md
+- docs/existing_work_review.md (audit of notebooks 01–02; extend when reviewing earlier work)
 
 Update relevant documents after completing significant work.
 
@@ -209,3 +210,28 @@ Clearly separate:
 - Recommendations.
 
 The business model must emerge from the research, rather than being predetermined.
+
+## 15. Repository State and Conventions
+
+*Added 2026-11-25 after the initial repository audit. Keep this section current.*
+
+### Current layout
+- `notebooks/01_demographic_analysis.ipynb`, `notebooks/02_socioeconomic_analysis.ipynb`: exploratory, municipal level. **Do not edit in place** (proposed decision D-005). Fix their known issues in new notebooks.
+- `data/raw/`, `data/processed/`, `reports/` are **gitignored**. No data is in Git. Expected raw filenames are listed in `docs/data_sources.md`.
+- The proposed structure (`data/external`, `data/interim`, `src/tfg`, `scripts`, `reports/figures|tables`) is described in `README.md` and is pending approval (D-006).
+
+### Known pitfalls in the data (see `docs/existing_work_review.md`)
+- Idescat municipal exports include an aggregate `Catalunya` row. **Always remove aggregate rows** before summing municipalities, and assert the result reconciles with the official total.
+- Join territorial data by **6-digit municipal code**, not by name, wherever codes are available.
+- Reference years differ across sources (census 2025, RFDB 2023 provisional, ETCA 2024). State the year of every indicator.
+- RFDB and ETCA only cover municipalities with ≥1,000 inhabitants. Prefer Idescat's comarca-level tables over aggregating incomplete municipal data.
+- RFDB is all-household income (not senior income). ETCA is all-age population load (not senior tourism).
+- Census population (`censph`) ≠ Padró. Do not mix them without saying so.
+- Do not reuse the "opportunity score" from notebook 02 (arbitrary weights).
+
+### Conventions
+- Notebooks: `notebooks/NN_short_topic.ipynb`, numbered in execution order. Follow the §9 structure. They must run top to bottom (Restart & Run All) before committing.
+- Paths: derive from a project root (`PROJECT_ROOT`); never hard-code absolute or user-specific paths.
+- Each new raw dataset: add an entry to `docs/data_sources.md` (URL, download date, reference period, granularity, licence, checksum) **before** using it.
+- Variable names in English and descriptive. Original source column names may be kept in raw-data loading code.
+- Environment: the author works on Windows (Python 3.13 venv per the kernel metadata). `requirements.txt` contains `pywinpty` (Windows-only); remove it to install on Linux or macOS.
