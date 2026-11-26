@@ -1,0 +1,159 @@
+{
+  "version" : "2.0",
+  "class" : "dataset",
+  "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/com/data?lang=ca",
+  "link" : {
+    "describedby" : [ {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/com?lang=ca",
+      "label" : "Indicadors d'urbanització. Comarques i Aran"
+    } ],
+    "related" : [ {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/cat?lang=ca",
+      "label" : "Indicadors d'urbanització. Catalunya"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/prov?lang=ca",
+      "label" : "Indicadors d'urbanització. Províncies"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/at?lang=ca",
+      "label" : "Indicadors d'urbanització. Àmbits del Pla territorial"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/mun?lang=ca",
+      "label" : "Indicadors d'urbanització. Municipis"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/ac?lang=ca",
+      "label" : "Indicadors d'urbanització. Per agrupacions censals"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/degurba/17107/20579/sec?lang=ca",
+      "label" : "Indicadors d'urbanització. Seccions censals"
+    } ]
+  },
+  "label" : "Indicadors d'urbanització. Comarques i Aran",
+  "note" : [ "les dades es presenten segons la distribució territorial vigent en aquell moment: 42 comarques i l’entitat territorial singular Aran. (Aquesta distribució territorial està establerta en diverses lleis anteriors d’organització territorial comarcal; en la Llei 4/2023, de canvi d'adscripció comarcal i veguerial de Biosca i Torà, que modifica territorialment la Segarra i el Solsonès; i en la Llei 7/2023, de creació del Lluçanès, a partir de la qual Sant Feliu Sasserra retorna al Bages, per la qual cosa modifica territorialment el Bages i el Lluçanès)." ],
+  "source" : "Idescat. Estadística del grau d'urbanització.",
+  "updated" : "2026-06-10",
+  "id" : [ "YEAR", "COM", "CONCEPT" ],
+  "size" : [ 1, 44, 6 ],
+  "role" : {
+    "geo" : [ "COM" ],
+    "metric" : [ "CONCEPT" ],
+    "time" : [ "YEAR" ]
+  },
+  "dimension" : {
+    "YEAR" : {
+      "category" : {
+        "index" : [ "2025" ],
+        "label" : {
+          "2025" : "2025"
+        }
+      },
+      "label" : "any"
+    },
+    "COM" : {
+      "category" : {
+        "index" : [ "01", "02", "03", "04", "05", "06", "39", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "43", "21", "42", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "40", "41", "TOTAL" ],
+        "label" : {
+          "01" : "Alt Camp",
+          "02" : "Alt Empordà",
+          "03" : "Alt Penedès",
+          "04" : "Alt Urgell",
+          "05" : "Alta Ribagorça",
+          "06" : "Anoia",
+          "39" : "Aran",
+          "07" : "Bages",
+          "08" : "Baix Camp",
+          "09" : "Baix Ebre",
+          "10" : "Baix Empordà",
+          "11" : "Baix Llobregat",
+          "12" : "Baix Penedès",
+          "13" : "Barcelonès",
+          "14" : "Berguedà",
+          "15" : "Cerdanya",
+          "16" : "Conca de Barberà",
+          "17" : "Garraf",
+          "18" : "Garrigues",
+          "19" : "Garrotxa",
+          "20" : "Gironès",
+          "43" : "Lluçanès",
+          "21" : "Maresme",
+          "42" : "Moianès",
+          "22" : "Montsià",
+          "23" : "Noguera",
+          "24" : "Osona",
+          "25" : "Pallars Jussà",
+          "26" : "Pallars Sobirà",
+          "27" : "Pla d'Urgell",
+          "28" : "Pla de l'Estany",
+          "29" : "Priorat",
+          "30" : "Ribera d'Ebre",
+          "31" : "Ripollès",
+          "32" : "Segarra",
+          "33" : "Segrià",
+          "34" : "Selva",
+          "35" : "Solsonès",
+          "36" : "Tarragonès",
+          "37" : "Terra Alta",
+          "38" : "Urgell",
+          "40" : "Vallès Occidental",
+          "41" : "Vallès Oriental",
+          "TOTAL" : "Catalunya"
+        }
+      },
+      "label" : "comarca o Aran",
+      "extension" : {
+        "break" : [ {
+          "time" : "2025",
+          "id" : "COM43C",
+          "label" : "Comarques vigents en data 20/07/2023"
+        } ]
+      }
+    },
+    "CONCEPT" : {
+      "category" : {
+        "index" : [ "POP", "SURFACE_KM2", "POP_DENS", "PERC_CIT", "PERC_TOWM_SEM_DENS", "PERC_RUR_AREA" ],
+        "label" : {
+          "POP" : "població",
+          "SURFACE_KM2" : "superfície (km²)",
+          "POP_DENS" : "densitat de població (h./km²)",
+          "PERC_CIT" : "població que resideix en centres urbans (%)",
+          "PERC_TOWM_SEM_DENS" : "població que resideix en aglomeracions urbanes (%)",
+          "PERC_RUR_AREA" : "població que resideix en cel·les rurals (%)"
+        },
+        "unit" : {
+          "POP" : {
+            "decimals" : 0
+          },
+          "SURFACE_KM2" : {
+            "decimals" : 2
+          },
+          "POP_DENS" : {
+            "decimals" : 1
+          },
+          "PERC_CIT" : {
+            "decimals" : 2
+          },
+          "PERC_TOWM_SEM_DENS" : {
+            "decimals" : 2
+          },
+          "PERC_RUR_AREA" : {
+            "decimals" : 2
+          }
+        }
+      },
+      "label" : "concepte",
+      "extension" : {
+        "%" : [ "POP" ]
+      }
+    }
+  },
+  "value" : [ 47138, 538, 87.6, 0, 50.83, 49.17, 150044, 1357.54, 110.5, 33.62, 27.42, 38.97, 116098, 592.69, 195.9, 0, 61.73, 38.27, 21477, 1447.46, 14.8, 0, 58.59, 41.41, 4051, 426.86, 9.5, 0, 0, 1E+2, 129956, 866.31, 1.5E+2, 48.43, 29.59, 21.98, 10651, 633.6, 16.8, 0, 0, 1E+2, 1.8762E+5, 1092.26, 171.8, 46.12, 33.37, 20.51, 207529, 697.15, 297.7, 48.67, 37.5, 13.83, 84077, 1002.67, 83.9, 0, 60.34, 39.66, 144818, 701.68, 206.4, 0, 79.34, 20.66, 856867, 485.99, 1763.1, 66.38, 31.22, 2.4, 1.2072E+5, 296.45, 407.2, 0, 85.92, 14.08, 2.39828E+6, 145.75, 16454.8, 99.57, 0.38, 0.05, 41523, 1185.25, 35, 0, 45.73, 54.27, 20111, 546.69, 36.8, 0, 48.27, 51.73, 20748, 650.17, 31.9, 0, 34.53, 65.47, 164223, 185.11, 887.2, 48.74, 42.06, 9.2, 19268, 797.7, 24.2, 0, 31.87, 68.13, 63339, 734.62, 86.2, 0, 61.46, 38.54, 208967, 575.59, 363, 72.02, 14.95, 13.03, 5723, 226.54, 25.3, 0, 0, 1E+2, 477375, 398.53, 1197.8, 55.02, 39.96, 5.02, 14864, 337.93, 44, 0, 40.06, 59.94, 72825, 735.42, 99, 0, 83.15, 16.85, 39957, 1784.07, 22.4, 0, 44.55, 55.45, 165946, 1018.64, 162.9, 0, 82.09, 17.91, 13593, 1343.09, 10.1, 0, 40.27, 59.73, 7332, 1377.92, 5.3, 0, 0, 1E+2, 38529, 305.14, 126.3, 0, 53, 47, 33828, 262.78, 128.7, 0, 79.29, 20.71, 9415, 498.61, 18.9, 0, 0, 1E+2, 22361, 827.32, 27, 0, 39.31, 60.69, 25914, 956.62, 27.1, 0, 40.17, 59.83, 22853, 563.2, 40.6, 0, 72.98, 27.02, 2.2163E+5, 1396.66, 158.7, 62.22, 12.26, 25.53, 187308, 995.05, 188.2, 0, 76.3, 23.7, 15578, 1160.76, 13.4, 0, 60.44, 39.56, 279332, 319.37, 874.6, 46.68, 48.6, 4.72, 11385, 743.04, 15.3, 0, 0, 1E+2, 39294, 579.66, 67.8, 0, 73.36, 26.64, 970228, 583.13, 1663.8, 81.1, 17.2, 1.7, 431351, 734.96, 586.9, 41.82, 51.22, 6.95, 8124126, 32107.98, 253, 61.37, 28.16, 10.47 ],
+  "extension" : {
+    "source" : [ "Idescat. Estadística del grau d'urbanització." ]
+  }
+}

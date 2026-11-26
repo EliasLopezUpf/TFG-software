@@ -14,6 +14,7 @@ Tracker of the market-study work packages. Status: ⬜ not started · 🟨 in pr
 | Historical series by comarca and age | ✅ | Census 2011, 2021–2025 at constant boundaries (NB03 §3.3); estimates 2012–2025 for Catalonia |
 | Growth: absolute, relative, change in share | ✅ | NB03 §6.5 |
 | Official projections by comarca and age | ✅ | Idescat base 2024, three scenarios (NB03 §6.6) |
+| Fieldwork comarca candidates | 🟨 | Proposed in NB04 (D-018); to agree with tutor |
 | Rankings and maps | 🟨 | Rankings and charts done (NB03). Maps not done: they need comarca geometries and possibly a new dependency (to justify). |
 
 ## B — Exploratory comarca segmentation
@@ -22,8 +23,9 @@ Tracker of the market-study work packages. Status: ⬜ not started · 🟨 in pr
 |---|---|---|
 | Socioeconomic context (RFDB) | 🟨 | Comarca RFDB 2023 placed side by side with demographics (NB03 §6.7) |
 | Seasonal population (ETCA) | 🟨 | Comarca ETCA 2024 placed side by side (NB03 §6.7). Not age-specific. |
-| Density, ageing/dependency indices, other variables | 🟨 | Ageing index done (NB03). Next: people living alone, education, urbanisation degree (`degurba`), socioeconomic index (`ist`) |
-| Clustering (only if justified after EDA) | ⬜ | |
+| Density, ageing/dependency indices, other variables | ✅ | NB04: density, degree of urbanisation, 75+ living alone (2021), IST 2024, education 2024 |
+| Digital use by age | 🟨 | Catalonia only, ages 16–74 (ICT survey 2025, NB04); no data for 75+ or by comarca → survey |
+| Territorial profiles | ✅ | NB04: 5 rule-based profiles (D-016); clustering not used |
 
 ## C — Activity supply
 

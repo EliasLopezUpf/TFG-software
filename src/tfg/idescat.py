@@ -95,3 +95,51 @@ def age_group_lower_bound(label: str) -> float:
         return float(digits[0]) if digits else np.nan
     digits = "".join(ch if ch.isdigit() else " " for ch in label).split()
     return float(digits[0]) if digits else np.nan
+
+
+# --- Idescat "f=xls" table exports (HTML tables) ------------------------------
+
+def _to_number(text: str) -> float:
+    """'3.061.495' -> 3061495.0 ; '99,3' -> 99.3 ; '..' / '' -> NaN."""
+    text = text.strip().replace("\xa0", "")
+    if text in {"", "..", "...", "-", "—"}:
+        return np.nan
+    return float(text.replace(".", "").replace(",", "."))
+
+
+def read_idescat_html_tables(path) -> list[tuple[str, pd.DataFrame]]:
+    """Parse an Idescat table export (an HTML file served with an .xls name).
+
+    Returns a list of (caption, DataFrame). Each DataFrame has one row per data
+    row, with `group` (the section heading row above it, e.g. 'Edat'),
+    `category` (the row label) and one numeric column per header cell.
+    Only the standard library, NumPy and pandas are used.
+    """
+    import html
+    import re
+
+    raw = Path(path).read_text(encoding="utf-8", errors="replace")
+    clean = lambda s: re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s))).strip()
+    tables = []
+    for table in re.findall(r"<table.*?</table>", raw, flags=re.S):
+        caption = re.search(r"<caption[^>]*>(.*?)</caption>", table, flags=re.S)
+        caption = clean(caption.group(1)) if caption else ""
+        body = re.search(r"<tbody[^>]*>(.*?)</tbody>", table, flags=re.S)
+        head = re.search(r"<thead[^>]*>(.*?)</thead>", table, flags=re.S)
+        header_rows = re.findall(r"<tr.*?</tr>", head.group(1) if head else table, flags=re.S)
+        header = [clean(c) for c in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", header_rows[0], flags=re.S)]
+        columns = header[1:]
+        records, group = [], None
+        for row in re.findall(r"<tr.*?</tr>", body.group(1) if body else table, flags=re.S):
+            cells = [clean(c) for c in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", row, flags=re.S)]
+            if not cells or cells == header:
+                continue
+            if len(cells) == 1 or all(c == "" for c in cells[1:]):
+                group = cells[0]
+                continue
+            if len(cells) != len(columns) + 1:
+                continue
+            records.append({"group": group, "category": cells[0],
+                            **{col: _to_number(v) for col, v in zip(columns, cells[1:])}})
+        tables.append((caption, pd.DataFrame(records)))
+    return tables

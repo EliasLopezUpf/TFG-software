@@ -54,7 +54,7 @@ Severity: 🔴 affects reported numbers · 🟠 affects reproducibility or inter
 3. 🟠 **RFDB is an all-household territorial indicator.** It is not the income of seniors and should not be read as their purchasing power.
 4. 🟠 **ETCA covers all ages.** It is not a measure of senior tourism or of seasonal seniors.
 5. 🟠 **Coverage is about 50 % of municipalities.** RFDB and ETCA only cover municipalities with ≥1,000 inhabitants. Any comarca aggregation of these indicators must handle the missing small municipalities explicitly (Idescat publishes comarca-level RFDB directly, which is preferable).
-6. 🟠 The manual name fix `"Palamós i Sant Joan" → "Palamós"` is not explained. ETCA has a `Codi` column, which could be used instead.
+6. 🟠 The manual name fix `"Palamós i Sant Joan" → "Palamós"` is not explained. ETCA has a `Codi` column, which could be used instead. *(Update 2026-11-26: the current Idescat name is "Palamós i Sant Joan", so the municipality was renamed and the census file used the older name. Joining by code avoids the problem, as notebooks 03–04 do.)*
 7. 🟠 **There are no markdown cells**: no objective, research questions, interpretation or limitations.
 8. 🟡 Cells 15 and 16 are duplicates (cell 15 was never executed).
 9. 🟡 Cell 21 uses a relative path `../data/processed` instead of the `PROJECT_ROOT`-based paths defined in cell 0.

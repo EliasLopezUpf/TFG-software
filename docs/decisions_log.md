@@ -19,6 +19,9 @@ Methodological and project decisions. Status: **Adopted** · **Proposed** (await
 | D-013 | 2026-11-26 | 2021→2025 is the primary trend comparison. 2011→2025 is reported as a longer view with a methodological caveat. | The 2011 census is partly survey-based and rounded; 2021+ is the register-based annual census. | **Adopted** |
 | D-014 | 2026-11-26 | Projections: report the **medium** scenario as the reference and the low–high range as sensitivity. Compute projected growth within the projection series (projected 2025 → year). | Avoids mixing observed and projected levels; the scenarios are assumption sets, not confidence intervals. | **Proposed** (to confirm with the tutor) |
 | D-015 | 2026-11-26 | Report 60+, 65+ and 75+ (and the 60–74 band) side by side. No single threshold is chosen yet. | Notebook 03 shows comarca rankings are robust to the threshold (Spearman ≥ 0.92), so the choice can be made later on market or product grounds. | **Adopted** (provisional; final choice with the tutor) |
+| D-016 | 2026-11-26 | Territorial **profiles** are defined by documented rules, applied in order, not by clustering. The rules use size thirds of residents 60+, seasonal load ≥ 110 %, ≥ 50 % of residents in rural cells, and share 60+ above Catalonia. Threshold sensitivity is reported. | 43 units and mixed-scale variables. Rules are explainable and reproducible, and anyone can challenge them. The profiles serve as a sampling aid, not as a market segmentation. | **Adopted** (notebook 04) |
+| D-017 | 2026-11-26 | Living alone (75+) uses the **published 2021 comarca values**, with boundary flags, not a municipal reconstruction. | Suppression of small municipalities biased the reconstruction by up to 2.6 pp in rural comarques. | **Adopted** |
+| D-018 | 2026-11-26 | Proposed fieldwork comarques: Vallès Occidental (alt. Barcelonès) for P1, Baix Empordà (alt. Selva) for P2, Berguedà (alt. Terra Alta) for P4. | They cover the main profiles and contrasting municipal structures, with continuity with the Costa Brava case. Practical access is not in the data. | **Proposed** (to agree with the tutor) |
 
 ## Unresolved questions
 
@@ -27,3 +30,5 @@ Methodological and project decisions. Status: **Adopted** · **Proposed** (await
 - Survey scale, recruitment method and ethics approval process at UPF.
 - Whether notebooks 01–02 should be formally marked as superseded by 03 (D-005).
 - Projection scenario to use as reference (D-014).
+- Final fieldwork comarques (D-018), weighing practical access.
+- How to obtain digital-use data for people aged 75+ (no official source found; to be covered by the survey).

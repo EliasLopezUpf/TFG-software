@@ -76,3 +76,25 @@ Chronological record of research work. Newest entries at the bottom. Each entry:
 **Limitations:** population ≠ demand; methodological break in the 2011 census; projections are scenarios; residents only (seasonal seniors are not captured); context indicators are not age-specific.
 
 **Open questions for the tutor:** primary threshold; reference projection scenario (D-014); selection of comarques for fieldwork.
+
+## 2026-11-26 — Notebook 04: context, territorial profiles and fieldwork candidates (Claude Code)
+
+**Goal:** add context to the comarca analysis (living alone, urbanisation, socioeconomic level, education, digital use), group comarques into transparent profiles, and propose fieldwork comarques.
+
+**Data work:**
+- Extended `scripts/download_idescat.py` with DS-12 to DS-16: census household and education indicators, degree of urbanisation, the IST socioeconomic index, and the ICT household survey 2025.
+- Added `tfg.idescat.read_idescat_html_tables` to parse Idescat's table exports.
+- Rejected approach: rebuilding "75+ living alone" from municipalities. Suppression in 486 small municipalities biased rural comarques by up to 2.6 pp, so the published 2021 comarca values are used, with boundary flags (D-017).
+- Urbanisation rebuilt from municipalities matches the comarca table and the 2025 census exactly.
+- Searched for digital use by age below Catalonia level, and for people aged 75+: none found in Idescat or INE tables. The ICT survey covers ages 16–74 for Catalonia as a whole.
+
+**Main results:**
+- 28.1 % of people aged 75+ live alone (2021), about 205,000. The share ranges from 18.4 % (Terra Alta) to 33.4 % (Pallars Jussà); Barcelonès is 31.1 % (about 78,000). It is unrelated to rurality or senior share (|ρ| ≤ 0.18).
+- Senior size tracks density (ρ = 0.91) and urbanisation (ρ = −0.90 with % rural). Senior share tracks rurality (ρ = 0.66). The IST (83–107) is unrelated to senior size or share.
+- Ages 65–74 (Catalonia 2025): 92.7 % used the internet in the last 3 months and 90.2 % use it weekly, but only 36.1 % bought online, against 69–76 % for ages 25–54.
+- Five rule-based profiles (D-016). P1 Large, non-seasonal: 11 comarques, 76.5 % of all seniors. P2 Seasonal, medium/large: 6, 11.3 %. P3 Seasonal, small: 4, 0.5 %. P4 Aged and rural: 10, 3.0 %. P5 Intermediate: 12, 8.7 %. Threshold changes reassign 0–6 comarques.
+- Proposed fieldwork comarques (D-018): Vallès Occidental (alt. Barcelonès), Baix Empordà (alt. Selva), Berguedà (alt. Terra Alta), with contrasting municipal structures.
+
+**Hypotheses raised:** H4 (online transaction, not access, is the digital barrier for 65–74); H5 (people 75+ living alone concentrated in Barcelona); H6 (rural supply less visible online).
+
+**Correction:** the NB02 name fix "Palamós i Sant Joan" → "Palamós" reflects a municipal rename (noted in `existing_work_review.md`).

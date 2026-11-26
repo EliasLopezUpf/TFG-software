@@ -13,8 +13,9 @@ Data Science Bachelor's Thesis (UPF). This is a data-driven feasibility study an
 | `notebooks/01_demographic_analysis.ipynb` | 2025 population by age and municipality (Idescat census); 60+ share; Costa Brava sample | Exploratory. Known issues, see [review](docs/existing_work_review.md) |
 | `notebooks/02_socioeconomic_analysis.ipynb` | RFDB 2023, ETCA seasonal population 2024; Costa Brava case | Exploratory. Known issues, see [review](docs/existing_work_review.md) |
 | `notebooks/03_comarca_demographics.ipynb` | **Comarca level:** 60+/65+/75+ size and share (2025), concentration, threshold sensitivity, constant-boundary trends 2011/2021–2025, Idescat projections to 2049, income and seasonal context | Validated; runs top to bottom |
+| `notebooks/04_comarca_profiles_fieldwork.ipynb` | Context by comarca (75+ living alone, urbanisation, IST, education), digital use by age (Catalonia), five rule-based territorial profiles, proposed fieldwork comarques with municipal structure | Validated; runs top to bottom (needs notebook 03 outputs) |
 
-Next steps: context variables, choice of comarques for fieldwork, supply inventory (see [`docs/market_study_progress.md`](docs/market_study_progress.md)).
+Next steps: agree fieldwork comarques with the tutor, design the supply inventory and the survey (see [`docs/market_study_progress.md`](docs/market_study_progress.md)).
 
 ## Repository structure
 
@@ -32,11 +33,12 @@ Next steps: context variables, choice of comarques for fieldwork, supply invento
 ├── notebooks/
 │   ├── 01_demographic_analysis.ipynb      # exploratory, municipal (kept as-is)
 │   ├── 02_socioeconomic_analysis.ipynb    # exploratory, municipal (kept as-is)
-│   └── 03_comarca_demographics.ipynb      # comarca-level senior population
+│   ├── 03_comarca_demographics.ipynb      # comarca-level senior population
+│   └── 04_comarca_profiles_fieldwork.ipynb  # context, profiles, fieldwork candidates
 ├── scripts/
 │   └── download_idescat.py       # Reproducible download of the Idescat API tables
 ├── src/tfg/                      # Reusable code
-│   ├── idescat.py                # JSON-stat reader, age-group helpers
+│   ├── idescat.py                # JSON-stat reader, HTML-table reader, age-group helpers
 │   ├── paths.py                  # Project paths
 │   └── territory.py              # Municipality → comarca mapping (division of 1 Jan 2025)
 └── reports/figures/              # Figures exported by the notebooks (versioned, regenerable)

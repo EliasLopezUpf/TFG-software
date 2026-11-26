@@ -1,0 +1,183 @@
+{
+  "version" : "2.0",
+  "class" : "dataset",
+  "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/com/data?lang=ca",
+  "link" : {
+    "describedby" : [ {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/com?lang=ca",
+      "label" : "Indicadors de llars. Comarques i Aran"
+    } ],
+    "related" : [ {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/cat?lang=ca",
+      "label" : "Indicadors de llars. Catalunya"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/prov?lang=ca",
+      "label" : "Indicadors de llars. Províncies"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/at?lang=ca",
+      "label" : "Indicadors de llars. Àmbits del Pla territorial"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/mun?lang=ca",
+      "label" : "Indicadors de llars. Municipis"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/ac?lang=ca",
+      "label" : "Indicadors de llars. Per agrupacions censals"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/dis?lang=ca",
+      "label" : "Indicadors de llars. Districtes censals"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/censph/17317/20806/sec?lang=ca",
+      "label" : "Indicadors de llars. Seccions censals"
+    } ]
+  },
+  "label" : "Indicadors de llars. Comarques i Aran",
+  "note" : [ "les dades es presenten segons la distribució territorial vigent en aquell moment: 41 comarques i l’entitat territorial singular Aran. (Aquesta distribució territorial està establerta en diverses lleis anteriors d’organització territorial comarcal i en la Llei 4/2015, de creació de la comarca del Moianès, que modifica territorialment el Bages, Osona i el Vallès Oriental)." ],
+  "source" : "Idescat, a partir del Cens de població i habitatges de l'INE.",
+  "updated" : "2023-12-20",
+  "id" : [ "YEAR", "COM", "CONCEPT" ],
+  "size" : [ 1, 43, 12 ],
+  "role" : {
+    "geo" : [ "COM" ],
+    "metric" : [ "CONCEPT" ],
+    "time" : [ "YEAR" ]
+  },
+  "dimension" : {
+    "YEAR" : {
+      "category" : {
+        "index" : [ "2021" ],
+        "label" : {
+          "2021" : "2021"
+        }
+      },
+      "label" : "any"
+    },
+    "COM" : {
+      "category" : {
+        "index" : [ "01", "02", "03", "04", "05", "06", "39", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "42", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "40", "41", "TOTAL" ],
+        "label" : {
+          "01" : "Alt Camp",
+          "02" : "Alt Empordà",
+          "03" : "Alt Penedès",
+          "04" : "Alt Urgell",
+          "05" : "Alta Ribagorça",
+          "06" : "Anoia",
+          "39" : "Aran",
+          "07" : "Bages",
+          "08" : "Baix Camp",
+          "09" : "Baix Ebre",
+          "10" : "Baix Empordà",
+          "11" : "Baix Llobregat",
+          "12" : "Baix Penedès",
+          "13" : "Barcelonès",
+          "14" : "Berguedà",
+          "15" : "Cerdanya",
+          "16" : "Conca de Barberà",
+          "17" : "Garraf",
+          "18" : "Garrigues",
+          "19" : "Garrotxa",
+          "20" : "Gironès",
+          "21" : "Maresme",
+          "42" : "Moianès",
+          "22" : "Montsià",
+          "23" : "Noguera",
+          "24" : "Osona",
+          "25" : "Pallars Jussà",
+          "26" : "Pallars Sobirà",
+          "27" : "Pla d'Urgell",
+          "28" : "Pla de l'Estany",
+          "29" : "Priorat",
+          "30" : "Ribera d'Ebre",
+          "31" : "Ripollès",
+          "32" : "Segarra",
+          "33" : "Segrià",
+          "34" : "Selva",
+          "35" : "Solsonès",
+          "36" : "Tarragonès",
+          "37" : "Terra Alta",
+          "38" : "Urgell",
+          "40" : "Vallès Occidental",
+          "41" : "Vallès Oriental",
+          "TOTAL" : "Catalunya"
+        }
+      },
+      "label" : "comarca o Aran",
+      "extension" : {
+        "break" : [ {
+          "time" : "2021",
+          "id" : "COM42",
+          "label" : "Comarques vigents en data 01/05/2015"
+        } ]
+      }
+    },
+    "CONCEPT" : {
+      "category" : {
+        "index" : [ "AVG_HOU_SIZE", "ONE_PEOPLE_HOU_SH", "TWO_PEOPLE_HOU_SH", "THR_PEOPLE_HOU_SH", "FOU_PEOPLE_HOU_SH", "FIO_PEOPLE_HOU_SH", "O65Y_PEOPLE_HOU_SH", "O75Y_ALO_PEOPLE_SH", "O65Y_ALL_PEOP_HOU_SH", "FOR_ALL_PEOP_HOU_SH", "ESP_FOR_PEOP_HOU_SH", "ESP_ALL_PEOP_HOU_SH" ],
+        "label" : {
+          "AVG_HOU_SIZE" : "grandària mitjana de la llar",
+          "ONE_PEOPLE_HOU_SH" : "proporció de llars d'1 persona (%)",
+          "TWO_PEOPLE_HOU_SH" : "proporció de llars de 2 persones (%)",
+          "THR_PEOPLE_HOU_SH" : "proporció de llars de 3 persones (%)",
+          "FOU_PEOPLE_HOU_SH" : "proporció de llars de 4 persones (%)",
+          "FIO_PEOPLE_HOU_SH" : "proporció de llars de 5 persones o més (%)",
+          "O65Y_PEOPLE_HOU_SH" : "proporció de llars d'una persona de 65 anys o més (%)",
+          "O75Y_ALO_PEOPLE_SH" : "proporció de població de 75 anys o més que viu sola (%)",
+          "O65Y_ALL_PEOP_HOU_SH" : "proporció de llars amb tots els membres de 65 anys o més (%)",
+          "FOR_ALL_PEOP_HOU_SH" : "proporció de llars amb tots els membres estrangers (%)",
+          "ESP_FOR_PEOP_HOU_SH" : "proporció de llars amb membres estrangers i espanyols (%)",
+          "ESP_ALL_PEOP_HOU_SH" : "proporció de llars amb tots els membres espanyols (%)"
+        },
+        "unit" : {
+          "AVG_HOU_SIZE" : {
+            "decimals" : 2
+          },
+          "ONE_PEOPLE_HOU_SH" : {
+            "decimals" : 1
+          },
+          "TWO_PEOPLE_HOU_SH" : {
+            "decimals" : 1
+          },
+          "THR_PEOPLE_HOU_SH" : {
+            "decimals" : 1
+          },
+          "FOU_PEOPLE_HOU_SH" : {
+            "decimals" : 1
+          },
+          "FIO_PEOPLE_HOU_SH" : {
+            "decimals" : 1
+          },
+          "O65Y_PEOPLE_HOU_SH" : {
+            "decimals" : 1
+          },
+          "O75Y_ALO_PEOPLE_SH" : {
+            "decimals" : 1
+          },
+          "O65Y_ALL_PEOP_HOU_SH" : {
+            "decimals" : 1
+          },
+          "FOR_ALL_PEOP_HOU_SH" : {
+            "decimals" : 1
+          },
+          "ESP_FOR_PEOP_HOU_SH" : {
+            "decimals" : 1
+          },
+          "ESP_ALL_PEOP_HOU_SH" : {
+            "decimals" : 1
+          }
+        }
+      },
+      "label" : "concepte"
+    }
+  },
+  "value" : [ 2.58, 25.2, 28.7, 20.6, 17.9, 7.7, 10.9, 28.3, 19.6, 7.4, 7.3, 85.2, 2.57, 27.5, 28.1, 19.2, 15.6, 9.6, 11.5, 28, 19.7, 17.1, 13.1, 69.7, 2.63, 24.3, 28.1, 20.8, 18.6, 8.2, 9.7, 26.9, 18.4, 5.3, 8, 86.7, 2.4, 31, 28.6, 19.6, 14.1, 6.7, 13, 28.6, 2E+1, 7.1, 9.5, 83.4, 2.28, 37, 25.6, 17.8, 14, 5.7, 13.2, 31.6, 19.5, 8, 6.9, 85.1, 2.64, 23.8, 28.1, 21, 18.7, 8.4, 10.1, 26.5, 18.8, 4.6, 6.8, 88.5, 2.39, 33.7, 26, 19, 14.1, 7.1, 8.1, 25.5, 12.5, 10.6, 10.1, 79.4, 2.55, 26, 28.9, 20.8, 16.6, 7.7, 11, 27.2, 20.6, 6.8, 7.5, 85.7, 2.55, 26.8, 28.1, 20.3, 16.8, 8, 10.4, 29.3, 18.5, 10.3, 9, 80.7, 2.56, 26.9, 27.8, 20.8, 16.2, 8.3, 11.5, 24.6, 21.1, 12.2, 8.2, 79.7, 2.55, 28, 28, 19.5, 15.5, 9, 11.3, 26.7, 19.7, 12.3, 11.6, 76.1, 2.68, 20.8, 29.2, 23, 19.6, 7.4, 9.1, 25, 18.2, 5, 8.6, 86.4, 2.48, 28.3, 30.1, 18.9, 15.1, 7.6, 10.9, 27, 19.8, 8.2, 9.9, 81.9, 2.44, 28.8, 30.6, 19.6, 14.1, 6.9, 12.8, 31.1, 22, 11.3, 11.6, 77.1, 2.43, 29.8, 28.9, 2E+1, 14.6, 6.7, 13.4, 27, 23.3, 5.1, 5.6, 89.3, 2.45, 33.7, 25, 18.2, 14.1, 8.9, 11.7, 28.8, 16.6, 7.3, 10.6, 82, 2.53, 27.5, 27.8, 20.5, 16.4, 7.8, 12.7, 28.6, 21.9, 6.9, 5.7, 87.4, 2.5, 26.2, 30.1, 21.2, 16, 6.5, 10.4, 28.3, 18.5, 8.9, 10.2, 80.8, 2.5, 29, 27.5, 19.6, 16.3, 7.6, 13.9, 26.5, 24.4, 10.4, 5.1, 84.5, 2.63, 24.9, 28.8, 20.9, 16.6, 8.8, 11.9, 28.5, 21.6, 8.5, 10.1, 81.4, 2.74, 23.7, 26.9, 20.4, 18.1, 11, 9.1, 28, 16.4, 10.5, 12.3, 77.2, 2.63, 23.3, 29.1, 21.6, 18, 8, 10.1, 26.3, 19, 6.3, 8.9, 84.8, 2.56, 27.2, 27.1, 20.1, 17.3, 8.2, 1E+1, 23.9, 18.4, 4.5, 6.6, 88.9, 2.52, 26.6, 28.7, 21.4, 16, 7.3, 10.6, 23.5, 2E+1, 11.8, 7.9, 80.3, 2.61, 26.8, 26.9, 20.4, 16.5, 9.4, 12.5, 26.9, 21.2, 11.5, 7.4, 81.2, 2.71, 23, 27.4, 21.1, 18.6, 9.8, 10.2, 27.4, 18.8, 8.8, 8.9, 82.3, 2.28, 36.8, 27.4, 17.1, 12.2, 6.5, 17.2, 33.4, 25.4, 7.8, 7.5, 84.7, 2.23, 41.1, 23.9, 16.6, 11.7, 6.8, 13.5, 3E+1, 18.3, 6, 5.6, 88.4, 2.71, 22.7, 27.1, 22, 18.5, 9.8, 9.9, 23.5, 18.6, 13.9, 7.7, 78.4, 2.79, 22.1, 26.4, 20.8, 19.8, 10.9, 9.4, 24.4, 18.2, 8.1, 9.8, 82.1, 2.4, 32.1, 27.9, 18.3, 14.8, 6.9, 14.7, 28.1, 23.9, 7.4, 7.3, 85.3, 2.51, 27.3, 28.7, 21.3, 15.2, 7.6, 13.4, 27.4, 23.7, 12, 5.9, 82.1, 2.38, 30.6, 29.8, 19.1, 14.3, 6.2, 14.8, 29.7, 25.6, 5.1, 6.3, 88.6, 2.76, 23.9, 25, 21.4, 18.2, 11.5, 9.8, 25, 17.3, 18.2, 8.7, 73.1, 2.57, 26.1, 28, 21.2, 16.5, 8.2, 10.7, 28.3, 18.7, 12, 8.4, 79.7, 2.57, 25.7, 28.7, 21, 16.7, 7.8, 9.9, 26.1, 18, 13.1, 10.4, 76.5, 2.55, 28.5, 26.3, 19.8, 17, 8.4, 12.2, 27.4, 19.8, 7.4, 6.5, 86.1, 2.53, 27.2, 28.6, 20.1, 16.3, 7.8, 10.1, 29, 17.9, 10.7, 10.3, 79, 2.63, 25.3, 27.5, 20.3, 17.1, 9.7, 13.5, 18.4, 25.7, 9.5, 4.8, 85.7, 2.64, 25.8, 26.1, 20.6, 17.9, 9.6, 11.2, 27.4, 19.5, 11.9, 8.6, 79.5, 2.68, 21.7, 28.8, 22, 19.3, 8.2, 9, 25.8, 17.6, 5.5, 8.4, 86.1, 2.71, 20.6, 28.5, 22.8, 19.9, 8.2, 8.5, 24.6, 17.2, 4.1, 8, 87.9, 2.57, 25.5, 29.2, 20.8, 16.7, 7.8, 10.8, 28.1, 19.7, 8.9, 9.7, 81.4 ],
+  "extension" : {
+    "source" : [ "Idescat, a partir del Cens de població i habitatges de l'INE." ]
+  }
+}

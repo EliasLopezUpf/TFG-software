@@ -1,0 +1,211 @@
+{
+  "version" : "2.0",
+  "class" : "dataset",
+  "href" : "https://api.idescat.cat/taules/v2/ist/14034/14994/com/data?lang=ca",
+  "link" : {
+    "describedby" : [ {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/ist/14034/14994/com?lang=ca",
+      "label" : "Índex socioeconòmic territorial (IST). Índex Catalunya=100. Comarques i Aran"
+    } ],
+    "monitor" : [ {
+      "type" : "application/json",
+      "href" : "https://api.idescat.cat/rectificacions/v1/rectificacions/cerca.json?id=557"
+    } ],
+    "related" : [ {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/ist/14034/14994/cat?lang=ca",
+      "label" : "Índex socioeconòmic territorial (IST). Índex Catalunya=100. Catalunya"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/ist/14034/14994/mun?lang=ca",
+      "label" : "Índex socioeconòmic territorial (IST). Índex Catalunya=100. Municipis"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/ist/14034/14994/ac?lang=ca",
+      "label" : "Índex socioeconòmic territorial (IST). Índex Catalunya=100. Per agrupacions censals"
+    }, {
+      "class" : "dataset",
+      "href" : "https://api.idescat.cat/taules/v2/ist/14034/14994/sec?lang=ca",
+      "label" : "Índex socioeconòmic territorial (IST). Índex Catalunya=100. Seccions censals"
+    } ]
+  },
+  "label" : "Índex socioeconòmic territorial (IST). Índex Catalunya=100. Comarques i Aran",
+  "note" : [ "En les dades provisionals, el valor de la renda de l’any de referència no està disponible.", "A partir del 2024 (p), les dades es presenten segons la distribució territorial vigent en aquell moment: 42 comarques i l’entitat territorial singular Aran. (Aquesta distribució territorial està establerta en diverses lleis anteriors d’organització territorial comarcal; en la Llei 4/2023, de canvi d'adscripció comarcal i veguerial de Biosca i Torà, que modifica territorialment la Segarra i el Solsonès; i en la Llei 7/2023, de creació del Lluçanès, a partir de la qual Sant Feliu Sasserra retorna al Bages, per la qual cosa modifica territorialment el Bages i el Lluçanès).", "Del 2015 al 2023, les dades es presenten segons la distribució territorial vigent en aquell moment: 41 comarques i l’entitat territorial singular Aran. (Aquesta distribució territorial està establerta en diverses lleis anteriors d’organització territorial comarcal i en la Llei 4/2015, de creació de la comarca del Moianès, que modifica territorialment el Bages, Osona i el Vallès Oriental)." ],
+  "source" : "Idescat. Índex socioeconòmic territorial.",
+  "updated" : "2026-06-26",
+  "id" : [ "YEAR", "COM", "CONCEPT" ],
+  "size" : [ 10, 44, 1 ],
+  "role" : {
+    "geo" : [ "COM" ],
+    "metric" : [ "CONCEPT" ],
+    "time" : [ "YEAR" ]
+  },
+  "dimension" : {
+    "YEAR" : {
+      "category" : {
+        "index" : [ "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024" ],
+        "label" : {
+          "2015" : "2015",
+          "2016" : "2016",
+          "2017" : "2017",
+          "2018" : "2018",
+          "2019" : "2019",
+          "2020" : "2020",
+          "2021" : "2021",
+          "2022" : "2022",
+          "2023" : "2023",
+          "2024" : "2024"
+        }
+      },
+      "label" : "any",
+      "extension" : {
+        "status" : {
+          "2024" : "p"
+        }
+      }
+    },
+    "COM" : {
+      "category" : {
+        "index" : [ "01", "02", "03", "04", "05", "06", "39", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "43", "21", "42", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "40", "41", "TOTAL" ],
+        "label" : {
+          "01" : "Alt Camp",
+          "02" : "Alt Empordà",
+          "03" : "Alt Penedès",
+          "04" : "Alt Urgell",
+          "05" : "Alta Ribagorça",
+          "06" : "Anoia",
+          "39" : "Aran",
+          "07" : "Bages",
+          "08" : "Baix Camp",
+          "09" : "Baix Ebre",
+          "10" : "Baix Empordà",
+          "11" : "Baix Llobregat",
+          "12" : "Baix Penedès",
+          "13" : "Barcelonès",
+          "14" : "Berguedà",
+          "15" : "Cerdanya",
+          "16" : "Conca de Barberà",
+          "17" : "Garraf",
+          "18" : "Garrigues",
+          "19" : "Garrotxa",
+          "20" : "Gironès",
+          "43" : "Lluçanès",
+          "21" : "Maresme",
+          "42" : "Moianès",
+          "22" : "Montsià",
+          "23" : "Noguera",
+          "24" : "Osona",
+          "25" : "Pallars Jussà",
+          "26" : "Pallars Sobirà",
+          "27" : "Pla d'Urgell",
+          "28" : "Pla de l'Estany",
+          "29" : "Priorat",
+          "30" : "Ribera d'Ebre",
+          "31" : "Ripollès",
+          "32" : "Segarra",
+          "33" : "Segrià",
+          "34" : "Selva",
+          "35" : "Solsonès",
+          "36" : "Tarragonès",
+          "37" : "Terra Alta",
+          "38" : "Urgell",
+          "40" : "Vallès Occidental",
+          "41" : "Vallès Oriental",
+          "TOTAL" : "Catalunya"
+        }
+      },
+      "label" : "comarca o Aran",
+      "extension" : {
+        "break" : [ {
+          "time" : "2015",
+          "id" : "COM42",
+          "label" : "Comarques vigents en data 01/05/2015"
+        }, {
+          "time" : "2024",
+          "id" : "COM43C",
+          "label" : "Comarques vigents en data 20/07/2023"
+        } ]
+      }
+    },
+    "CONCEPT" : {
+      "category" : {
+        "index" : [ "IST_G_IND" ],
+        "label" : {
+          "IST_G_IND" : "Índex socioeconòmic territorial"
+        },
+        "unit" : {
+          "IST_G_IND" : {
+            "decimals" : 1
+          }
+        }
+      },
+      "label" : "concepte"
+    }
+  },
+  "value" : [ 96.3, 85.7, 99.9, 94.4, 101.1, 98.2, 106.4, 96.4, 94.9, 86.7, 9E+1, 103.4, 91.4, 103.4, 98.9, 101.4, 99.6, 102, 91, 98.9, 96.3, null, 101.8, 104.1, 84.4, 88.3, 97.3, 96.3, 106.6, 87.6, 99.7, 96.1, 93.8, 99.7, 86.3, 91.1, 90.4, 97.3, 95.9, 89.5, 90.1, 102.6, 100.7, 1E+2, 96, 85.4, 99.9, 93.5, 99.6, 98.4, 106.4, 96.4, 95, 87.2, 9E+1, 103.5, 91.5, 103.2, 99, 101.3, 99.7, 101.9, 90.4, 98.6, 96.3, null, 101.8, 104.3, 84.9, 88.1, 97.3, 95.6, 107, 87.8, 99.9, 96.3, 93.7, 99, 87, 90.9, 90.5, 97.2, 96.2, 89.5, 90.1, 102.7, 101, 1E+2, 95.5, 85.6, 99.8, 93.3, 99.8, 98.4, 106.3, 96.4, 95.2, 87.8, 90.2, 103.6, 90.9, 103, 99.6, 101.7, 1E+2, 102, 90.8, 98, 95.8, null, 101.9, 104.1, 84.7, 88.8, 97.2, 96, 106.8, 88.1, 99.9, 95.4, 94, 98.8, 87.3, 91.1, 90.6, 97.4, 96, 90.4, 90.8, 102.8, 101.2, 1E+2, 95.9, 85.8, 99.7, 92.6, 100.5, 98.4, 106.5, 96.7, 95.6, 87.8, 90.3, 103.8, 90.8, 102.8, 98.6, 101.5, 100.4, 102.7, 91.1, 96.5, 95.1, null, 102.1, 103.9, 85.6, 88.3, 96.1, 94.8, 106.4, 88, 99.2, 95.2, 92.7, 97.8, 86.7, 91.4, 90.9, 97.4, 96.2, 89.6, 90.4, 103, 101.5, 1E+2, 95.6, 85.6, 99.8, 92.5, 101.4, 98.7, 105.7, 96.4, 95.4, 88, 90.1, 103.7, 90.6, 102.4, 98.4, 100.7, 100.3, 102.8, 91.1, 95.5, 94.5, null, 102.1, 103, 85.5, 87.6, 95.2, 93.8, 106.8, 88.1, 98.6, 95.4, 91.6, 97.7, 86.4, 90.8, 90.2, 96.9, 95.3, 89.6, 90.3, 102.9, 101.6, 1E+2, 95.4, 85.3, 100.1, 92.5, 101.8, 98.5, 104.1, 96.5, 94.7, 88.3, 90.1, 103.7, 90.7, 101.7, 98.4, 100.7, 99.8, 103.3, 91.9, 94.7, 94.3, null, 101.9, 102.9, 86, 87.2, 94.7, 94.1, 107.2, 88.9, 98.9, 96.3, 91.8, 98.2, 87.4, 91.2, 89, 96.8, 94.4, 90.3, 91.3, 102.8, 101.8, 1E+2, 95.5, 84.3, 100.4, 92, 101.4, 98.4, 103.7, 96.1, 95.2, 88.5, 90.7, 103.6, 90.6, 101.8, 98.6, 101.5, 99.3, 103.4, 91.9, 93.8, 94, null, 101.8, 102.4, 86.5, 88.1, 94.3, 94.3, 107.7, 89.5, 99, 97.1, 91.8, 99.2, 86.7, 91.2, 88.5, 97.6, 95.2, 91.5, 92.1, 102.9, 101.8, 1E+2, 95.3, 84.5, 100.2, 90.8, 100.4, 98.3, 105.5, 96.3, 95.1, 87.4, 90.8, 103.7, 90.9, 101.8, 98.1, 102.4, 99, 103.6, 90.8, 92.9, 94, null, 102.4, 102.9, 86.5, 87.4, 94.3, 93.3, 107.5, 88.9, 99.5, 97.3, 91.3, 98.9, 85.9, 90.5, 89.1, 97.5, 95.8, 90.3, 91.7, 102.9, 102.1, 1E+2, 95.2, 83.7, 100.5, 90.4, 99.5, 98.3, 104, 96.5, 94.9, 86.9, 90.6, 104.1, 90.9, 101.4, 97.8, 100.3, 98.5, 103.9, 91.1, 91.6, 93.8, null, 102.6, 102.9, 85.4, 86.6, 94.4, 92.6, 107.4, 88.1, 99.5, 96.9, 90.4, 97.7, 85.8, 89.5, 89.2, 97.6, 95.8, 89.6, 91.5, 103, 101.9, 1E+2, 95.1, 83.2, 100.4, 89.8, 100.7, 98.4, 103.3, 96.8, 95.2, 86.3, 90.5, 104.2, 90.9, 100.9, 97.5, 99.9, 98.2, 103.7, 90.9, 89.7, 93.4, 106.2, 102.9, 103.3, 84.3, 86.6, 94, 92.5, 106.9, 88.3, 1E+2, 96.2, 90.2, 98, 84.7, 89.4, 89.6, 96.9, 95.8, 89.4, 91.3, 103.1, 101.9, 1E+2 ],
+  "status" : {
+    "21" : "..",
+    "65" : "..",
+    "109" : "..",
+    "153" : "..",
+    "197" : "..",
+    "241" : "..",
+    "285" : "..",
+    "329" : "..",
+    "373" : "..",
+    "396" : "p",
+    "397" : "p",
+    "398" : "p",
+    "399" : "p",
+    "400" : "p",
+    "401" : "p",
+    "402" : "p",
+    "403" : "p",
+    "404" : "p",
+    "405" : "p",
+    "406" : "p",
+    "407" : "p",
+    "408" : "p",
+    "409" : "p",
+    "410" : "p",
+    "411" : "p",
+    "412" : "p",
+    "413" : "p",
+    "414" : "p",
+    "415" : "p",
+    "416" : "p",
+    "417" : "p",
+    "418" : "p",
+    "419" : "p",
+    "420" : "p",
+    "421" : "p",
+    "422" : "p",
+    "423" : "p",
+    "424" : "p",
+    "425" : "p",
+    "426" : "p",
+    "427" : "p",
+    "428" : "p",
+    "429" : "p",
+    "430" : "p",
+    "431" : "p",
+    "432" : "p",
+    "433" : "p",
+    "434" : "p",
+    "435" : "p",
+    "436" : "p",
+    "437" : "p",
+    "438" : "p",
+    "439" : "p"
+  },
+  "extension" : {
+    "status" : {
+      "label" : {
+        ".." : "Dada confidencial, amb baixa fiabilitat o no disponible",
+        "p" : "Dada provisional"
+      }
+    },
+    "source" : [ "Idescat. Índex socioeconòmic territorial." ]
+  }
+}

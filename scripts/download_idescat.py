@@ -99,6 +99,53 @@ def build_requests(age_ids_part_b: list[str]) -> list[dict]:
         url="https://www.idescat.cat/codis/?id=50&n=9&f=ssv",
         description="Idescat territorial codes: municipalities with their comarca (current division)",
     ))
+
+    # --- Context variables (notebook 04) ------------------------------------
+    # 6. Census household indicators, 2021 (incl. % of people 75+ living alone).
+    #    Municipal level is used to rebuild the 1 Jan 2025 comarques; the
+    #    comarca table (2021 boundaries) is kept for validation.
+    for geo in ("mun", "com"):
+        reqs.append(dict(
+            name=f"censph_17317_20806_{geo}.json",
+            url=f"{API}/censph/17317/20806/{geo}/data?lang=ca",
+            description=f"Census household indicators, 2021, {'municipalities' if geo == 'mun' else 'comarques (2021 boundaries)'}",
+        ))
+    # 7. Census education indicators (population 15+), 2021-2024, comarques
+    reqs.append(dict(
+        name="censph_16719_20207_com.json",
+        url=f"{API}/censph/16719/20207/com/data?lang=ca",
+        description="Census education indicators (population aged 15+), comarques, 2021-2024 (boundaries in force each year)",
+    ))
+    # 8. Degree of urbanisation indicators (population, area, density, % in
+    #    urban centres / towns / rural cells), 2025: municipalities + comarques
+    reqs.append(dict(
+        name="degurba_17107_20579_mun_2025.json",
+        url=f"{API}/degurba/17107/20579/mun/data?YEAR=2025&lang=ca",
+        description="Degree of urbanisation indicators, municipalities, 2025",
+    ))
+    reqs.append(dict(
+        name="degurba_17107_20579_com.json",
+        url=f"{API}/degurba/17107/20579/com/data?lang=ca",
+        description="Degree of urbanisation indicators, comarques, 2025",
+    ))
+    # 9. Territorial socioeconomic index (IST) and its component values, comarques
+    reqs.append(dict(
+        name="ist_14034_14994_com.json",
+        url=f"{API}/ist/14034/14994/com/data?lang=ca",
+        description="Territorial socioeconomic index (IST, Catalonia = 100), comarques, 2015-2024",
+    ))
+    reqs.append(dict(
+        name="ist_14074_15022_com.json",
+        url=f"{API}/ist/14074/15022/com/data?lang=ca",
+        description="Socioeconomic indicators (IST components, values), comarques, 2015-2024",
+    ))
+    # 10. ICT use by age, Catalonia, 2025 (Idescat/INE household ICT survey).
+    #     Not in the API: Idescat's table export (an HTML table served as .xls).
+    reqs.append(dict(
+        name="ticll25_1_2_1_ict_use_by_person.html",
+        url="https://www.idescat.cat/pub/?id=ticll25&n=1.2.1&f=xls",
+        description="ICT household survey 2025: main ICT use indicators by demographic characteristics (persons 16-74), Catalonia",
+    ))
     return reqs
 
 
