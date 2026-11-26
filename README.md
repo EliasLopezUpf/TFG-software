@@ -27,7 +27,7 @@ Next steps: context variables, choice of comarques for fieldwork, supply invento
 │   ├── raw/                      # Original files, unmodified, VERSIONED (decision D-004)
 │   │   ├── comarca/              # Idescat comarca files downloaded manually by the author
 │   │   └── idescat_api/          # Idescat API downloads + MANIFEST.csv (URL, time, SHA-256)
-│   └── processed/                # Notebook outputs (gitignored, regenerable)
+│   └── processed/                # Tables exported by the notebooks (versioned, regenerable)
 ├── docs/                         # Project documentation (see below)
 ├── notebooks/
 │   ├── 01_demographic_analysis.ipynb      # exploratory, municipal (kept as-is)
@@ -39,7 +39,7 @@ Next steps: context variables, choice of comarques for fieldwork, supply invento
 │   ├── idescat.py                # JSON-stat reader, age-group helpers
 │   ├── paths.py                  # Project paths
 │   └── territory.py              # Municipality → comarca mapping (division of 1 Jan 2025)
-└── reports/                      # Generated figures and tables (gitignored)
+└── reports/figures/              # Figures exported by the notebooks (versioned, regenerable)
 ```
 
 Possible later additions, created only when needed: `data/external/` (small reference tables), `data/interim/`, `reports/tables/`.

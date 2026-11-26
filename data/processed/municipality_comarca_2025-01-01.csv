@@ -1,0 +1,948 @@
+﻿mun_code,mun_name,comarca_code,comarca_name,comarca_code_current,comarca_name_current,override_applied
+250019,Abella de la Conca,25,Pallars Jussà,25,Pallars Jussà,False
+080018,Abrera,11,Baix Llobregat,11,Baix Llobregat,False
+250024,Àger,23,Noguera,23,Noguera,False
+250030,Agramunt,38,Urgell,38,Urgell,False
+080023,Aguilar de Segarra,07,Bages,07,Bages,False
+170010,Agullana,02,Alt Empordà,02,Alt Empordà,False
+080142,Aiguafreda,41,Vallès Oriental,24,Osona,True
+430017,Aiguamúrcia,01,Alt Camp,01,Alt Camp,False
+170025,Aiguaviva,20,Gironès,20,Gironès,False
+250387,Aitona,33,Segrià,33,Segrià,False
+250045,"Alamús, els",33,Segrià,33,Segrià,False
+250058,Alàs i Cerc,04,Alt Urgell,04,Alt Urgell,False
+250061,"Albagés, l'",18,Garrigues,18,Garrigues,False
+170031,Albanyà,02,Alt Empordà,02,Alt Empordà,False
+250077,Albatàrrec,33,Segrià,33,Segrià,False
+250083,Albesa,23,Noguera,23,Noguera,False
+250096,"Albi, l'",18,Garrigues,18,Garrigues,False
+430022,Albinyana,12,Baix Penedès,12,Baix Penedès,False
+430038,"Albiol, l'",08,Baix Camp,08,Baix Camp,False
+170046,Albons,10,Baix Empordà,10,Baix Empordà,False
+430043,Alcanar,22,Montsià,22,Montsià,False
+250100,Alcanó,33,Segrià,33,Segrià,False
+250117,Alcarràs,33,Segrià,33,Segrià,False
+250122,Alcoletge,33,Segrià,33,Segrià,False
+430056,Alcover,01,Alt Camp,01,Alt Camp,False
+439044,"Aldea, l'",09,Baix Ebre,09,Baix Ebre,False
+430069,Aldover,09,Baix Ebre,09,Baix Ebre,False
+430075,"Aleixar, l'",08,Baix Camp,08,Baix Camp,False
+080039,Alella,21,Maresme,21,Maresme,False
+430081,Alfara de Carles,09,Baix Ebre,09,Baix Ebre,False
+250138,Alfarràs,33,Segrià,33,Segrià,False
+250143,Alfés,33,Segrià,33,Segrià,False
+430094,Alforja,08,Baix Camp,08,Baix Camp,False
+250156,Algerri,23,Noguera,23,Noguera,False
+250169,Alguaire,33,Segrià,33,Segrià,False
+250175,Alins,26,Pallars Sobirà,26,Pallars Sobirà,False
+430108,Alió,01,Alt Camp,01,Alt Camp,False
+250194,Almacelles,33,Segrià,33,Segrià,False
+250208,Almatret,33,Segrià,33,Segrià,False
+250215,Almenar,33,Segrià,33,Segrià,False
+430115,Almoster,08,Baix Camp,08,Baix Camp,False
+250220,Alòs de Balaguer,23,Noguera,23,Noguera,False
+170062,Alp,15,Cerdanya,15,Cerdanya,False
+080044,Alpens,43,Lluçanès,43,Lluçanès,False
+250236,Alpicat,33,Segrià,33,Segrià,False
+250241,Alt Àneu,26,Pallars Sobirà,26,Pallars Sobirà,False
+430120,Altafulla,36,Tarragonès,36,Tarragonès,False
+170078,Amer,34,Selva,34,Selva,False
+430136,"Ametlla de Mar, l'",09,Baix Ebre,09,Baix Ebre,False
+080057,"Ametlla del Vallès, l'",41,Vallès Oriental,41,Vallès Oriental,False
+439060,"Ampolla, l'",09,Baix Ebre,09,Baix Ebre,False
+430141,Amposta,22,Montsià,22,Montsià,False
+170084,Anglès,34,Selva,34,Selva,False
+250273,Anglesola,38,Urgell,38,Urgell,False
+250292,Arbeca,18,Garrigues,18,Garrigues,False
+430167,"Arboç, l'",12,Baix Penedès,12,Baix Penedès,False
+430154,Arbolí,08,Baix Camp,08,Baix Camp,False
+170097,Arbúcies,34,Selva,34,Selva,False
+080060,Arenys de Mar,21,Maresme,21,Maresme,False
+080076,Arenys de Munt,21,Maresme,21,Maresme,False
+170101,Argelaguer,19,Garrotxa,19,Garrotxa,False
+080082,Argençola,06,Anoia,06,Anoia,False
+430173,"Argentera, l'",08,Baix Camp,08,Baix Camp,False
+080095,Argentona,21,Maresme,21,Maresme,False
+170118,"Armentera, l'",02,Alt Empordà,02,Alt Empordà,False
+430189,Arnes,37,Terra Alta,37,Terra Alta,False
+250313,Arres,39,Aran,39,Aran,False
+250328,Arsèguel,04,Alt Urgell,04,Alt Urgell,False
+080109,Artés,07,Bages,07,Bages,False
+250334,Artesa de Lleida,33,Segrià,33,Segrià,False
+250349,Artesa de Segre,23,Noguera,23,Noguera,False
+430192,Ascó,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+250365,Aspa,33,Segrià,33,Segrià,False
+250371,"Avellanes i Santa Linya, les",23,Noguera,23,Noguera,False
+080116,Avià,14,Berguedà,14,Berguedà,False
+080121,Avinyó,07,Bages,07,Bages,False
+170123,Avinyonet de Puigventós,02,Alt Empordà,02,Alt Empordà,False
+080137,Avinyonet del Penedès,03,Alt Penedès,03,Alt Penedès,False
+080155,Badalona,13,Barcelonès,13,Barcelonès,False
+089045,Badia del Vallès,40,Vallès Occidental,40,Vallès Occidental,False
+080168,Bagà,14,Berguedà,14,Berguedà,False
+250390,Baix Pallars,26,Pallars Sobirà,26,Pallars Sobirà,False
+250404,Balaguer,23,Noguera,23,Noguera,False
+080174,Balenyà,24,Osona,24,Osona,False
+080180,Balsareny,07,Bages,07,Bages,False
+430206,Banyeres del Penedès,12,Baix Penedès,12,Baix Penedès,False
+170157,Banyoles,28,Pla de l'Estany,28,Pla de l'Estany,False
+250411,Barbens,27,Pla d'Urgell,27,Pla d'Urgell,False
+430213,Barberà de la Conca,16,Conca de Barberà,16,Conca de Barberà,False
+082520,Barberà del Vallès,40,Vallès Occidental,40,Vallès Occidental,False
+080193,Barcelona,13,Barcelonès,13,Barcelonès,False
+250426,"Baronia de Rialb, la",23,Noguera,23,Noguera,False
+170160,Bàscara,02,Alt Empordà,02,Alt Empordà,False
+250447,Bassella,04,Alt Urgell,04,Alt Urgell,False
+430228,Batea,37,Terra Alta,37,Terra Alta,False
+250450,Bausen,39,Aran,39,Aran,False
+080207,Begues,11,Baix Llobregat,11,Baix Llobregat,False
+170139,Begur,10,Baix Empordà,10,Baix Empordà,False
+250463,Belianes,38,Urgell,38,Urgell,False
+250485,Bell-lloc d'Urgell,27,Pla d'Urgell,27,Pla d'Urgell,False
+251706,Bellaguarda,18,Garrigues,18,Garrigues,False
+170182,Bellcaire d'Empordà,10,Baix Empordà,10,Baix Empordà,False
+250479,Bellcaire d'Urgell,23,Noguera,23,Noguera,False
+250498,Bellmunt d'Urgell,23,Noguera,23,Noguera,False
+430234,Bellmunt del Priorat,29,Priorat,29,Priorat,False
+080214,Bellprat,06,Anoia,06,Anoia,False
+250501,Bellpuig,38,Urgell,38,Urgell,False
+430249,Bellvei,12,Baix Penedès,12,Baix Penedès,False
+250518,Bellver de Cerdanya,15,Cerdanya,15,Cerdanya,False
+250523,Bellvís,27,Pla d'Urgell,27,Pla d'Urgell,False
+250539,Benavent de Segrià,33,Segrià,33,Segrià,False
+430252,Benifallet,09,Baix Ebre,09,Baix Ebre,False
+430265,Benissanet,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+080229,Berga,14,Berguedà,14,Berguedà,False
+170195,Besalú,19,Garrotxa,19,Garrotxa,False
+170209,Bescanó,20,Gironès,20,Gironès,False
+170216,Beuda,19,Garrotxa,19,Garrotxa,False
+080235,Bigues i Riells del Fai,41,Vallès Oriental,41,Vallès Oriental,False
+250557,Biosca,35,Solsonès,35,Solsonès,False
+170221,"Bisbal d'Empordà, la",10,Baix Empordà,10,Baix Empordà,False
+430271,"Bisbal de Montsant, la",29,Priorat,29,Priorat,False
+430287,"Bisbal del Penedès, la",12,Baix Penedès,12,Baix Penedès,False
+172348,Biure,02,Alt Empordà,02,Alt Empordà,False
+430290,Blancafort,16,Conca de Barberà,16,Conca de Barberà,False
+170237,Blanes,34,Selva,34,Selva,False
+170293,Boadella i les Escaules,02,Alt Empordà,02,Alt Empordà,False
+170242,Bolvir,15,Cerdanya,15,Cerdanya,False
+430304,Bonastre,12,Baix Penedès,12,Baix Penedès,False
+250576,"Bòrdes, Es",39,Aran,39,Aran,False
+170255,Bordils,20,Gironès,20,Gironès,False
+250582,"Borges Blanques, les",18,Garrigues,18,Garrigues,False
+430311,"Borges del Camp, les",08,Baix Camp,08,Baix Camp,False
+170268,Borrassà,02,Alt Empordà,02,Alt Empordà,False
+080240,Borredà,14,Berguedà,14,Berguedà,False
+250595,Bossòst,39,Aran,39,Aran,False
+430326,Bot,37,Terra Alta,37,Terra Alta,False
+430332,Botarell,08,Baix Camp,08,Baix Camp,False
+250560,Bovera,18,Garrigues,18,Garrigues,False
+430347,Bràfim,01,Alt Camp,01,Alt Camp,False
+170274,Breda,34,Selva,34,Selva,False
+080253,"Bruc, el",06,Anoia,06,Anoia,False
+080266,"Brull, el",24,Osona,24,Osona,False
+170280,Brunyola i Sant Martí Sapresa,34,Selva,34,Selva,False
+430350,Cabacés,29,Priorat,29,Priorat,False
+250609,Cabanabona,23,Noguera,23,Noguera,False
+170314,Cabanelles,02,Alt Empordà,02,Alt Empordà,False
+170307,Cabanes,02,Alt Empordà,02,Alt Empordà,False
+080272,"Cabanyes, les",03,Alt Penedès,03,Alt Penedès,False
+250616,Cabó,04,Alt Urgell,04,Alt Urgell,False
+430363,Cabra del Camp,01,Alt Camp,01,Alt Camp,False
+080288,Cabrera d'Anoia,06,Anoia,06,Anoia,False
+080291,Cabrera de Mar,21,Maresme,21,Maresme,False
+080305,Cabrils,21,Maresme,21,Maresme,False
+170329,Cadaqués,02,Alt Empordà,02,Alt Empordà,False
+080312,Calaf,06,Anoia,06,Anoia,False
+430379,Calafell,12,Baix Penedès,12,Baix Penedès,False
+080348,Calders,42,Moianès,42,Moianès,False
+080327,Caldes d'Estrac,21,Maresme,21,Maresme,False
+170335,Caldes de Malavella,34,Selva,34,Selva,False
+080333,Caldes de Montbui,41,Vallès Oriental,41,Vallès Oriental,False
+080351,Calella,21,Maresme,21,Maresme,False
+080370,Calldetenes,24,Osona,24,Osona,False
+080386,Callús,07,Bages,07,Bages,False
+080364,Calonge de Segarra,06,Anoia,06,Anoia,False
+170340,Calonge i Sant Antoni,10,Baix Empordà,10,Baix Empordà,False
+250621,Camarasa,23,Noguera,23,Noguera,False
+439039,Camarles,09,Baix Ebre,09,Baix Ebre,False
+430385,Cambrils,08,Baix Camp,08,Baix Camp,False
+170353,Camós,28,Pla de l'Estany,28,Pla de l'Estany,False
+170366,Campdevànol,31,Ripollès,31,Ripollès,False
+170372,Campelles,31,Ripollès,31,Ripollès,False
+080399,Campins,41,Vallès Oriental,41,Vallès Oriental,False
+170388,Campllong,20,Gironès,20,Gironès,False
+170391,Camprodon,31,Ripollès,31,Ripollès,False
+250637,Canejan,39,Aran,39,Aran,False
+170405,Canet d'Adri,20,Gironès,20,Gironès,False
+080403,Canet de Mar,21,Maresme,21,Maresme,False
+439076,"Canonja, la",36,Tarragonès,36,Tarragonès,False
+080410,Canovelles,41,Vallès Oriental,41,Vallès Oriental,False
+080425,Cànoves i Samalús,41,Vallès Oriental,41,Vallès Oriental,False
+170412,Cantallops,02,Alt Empordà,02,Alt Empordà,False
+080431,Canyelles,17,Garraf,17,Garraf,False
+430398,Capafonts,08,Baix Camp,08,Baix Camp,False
+430402,Capçanes,29,Priorat,29,Priorat,False
+080446,Capellades,06,Anoia,06,Anoia,False
+170427,Capmany,02,Alt Empordà,02,Alt Empordà,False
+080459,Capolat,14,Berguedà,14,Berguedà,False
+080462,Cardedeu,41,Vallès Oriental,41,Vallès Oriental,False
+080478,Cardona,07,Bages,07,Bages,False
+080484,Carme,06,Anoia,06,Anoia,False
+430419,Caseres,37,Terra Alta,37,Terra Alta,False
+170448,Cassà de la Selva,20,Gironès,20,Gironès,False
+080497,Casserres,14,Berguedà,14,Berguedà,False
+170486,"Castell d'Aro, Platja d'Aro i s'Agaró",10,Baix Empordà,10,Baix Empordà,False
+080575,Castell de l'Areny,14,Berguedà,14,Berguedà,False
+259046,Castell de Mur,25,Pallars Jussà,25,Pallars Jussà,False
+250642,Castellar de la Ribera,35,Solsonès,35,Solsonès,False
+080522,Castellar de n'Hug,14,Berguedà,14,Berguedà,False
+080500,Castellar del Riu,14,Berguedà,14,Berguedà,False
+080517,Castellar del Vallès,40,Vallès Occidental,40,Vallès Occidental,False
+080538,Castellbell i el Vilar,07,Bages,07,Bages,False
+080543,Castellbisbal,40,Vallès Occidental,40,Vallès Occidental,False
+080556,Castellcir,42,Moianès,42,Moianès,False
+250674,Castelldans,18,Garrigues,18,Garrigues,False
+080569,Castelldefels,11,Baix Llobregat,11,Baix Llobregat,False
+080581,Castellet i la Gornal,03,Alt Penedès,03,Alt Penedès,False
+170464,Castellfollit de la Roca,19,Garrotxa,19,Garrotxa,False
+080608,Castellfollit de Riubregós,06,Anoia,06,Anoia,False
+080594,Castellfollit del Boix,07,Bages,07,Bages,False
+080615,Castellgalí,07,Bages,07,Bages,False
+080620,Castellnou de Bages,07,Bages,07,Bages,False
+250680,Castellnou de Seana,27,Pla d'Urgell,27,Pla d'Urgell,False
+170470,Castelló d'Empúries,02,Alt Empordà,02,Alt Empordà,False
+250693,Castelló de Farfanya,23,Noguera,23,Noguera,False
+080636,Castellolí,06,Anoia,06,Anoia,False
+250707,Castellserà,38,Urgell,38,Urgell,False
+080641,Castellterçol,42,Moianès,42,Moianès,False
+430424,Castellvell del Camp,08,Baix Camp,08,Baix Camp,False
+080654,Castellví de la Marca,03,Alt Penedès,03,Alt Penedès,False
+080667,Castellví de Rosanes,11,Baix Llobregat,11,Baix Llobregat,False
+430430,"Catllar, el",36,Tarragonès,36,Tarragonès,False
+250714,Cava,04,Alt Urgell,04,Alt Urgell,False
+171899,"Cellera de Ter, la",34,Selva,34,Selva,False
+170499,Celrà,20,Gironès,20,Gironès,False
+080673,Centelles,24,Osona,24,Osona,False
+082687,Cercs,14,Berguedà,14,Berguedà,False
+082665,Cerdanyola del Vallès,40,Vallès Occidental,40,Vallès Occidental,False
+080689,Cervelló,11,Baix Llobregat,11,Baix Llobregat,False
+250729,Cervera,32,Segarra,32,Segarra,False
+250735,Cervià de les Garrigues,18,Garrigues,18,Garrigues,False
+170502,Cervià de Ter,20,Gironès,20,Gironès,False
+170519,Cistella,02,Alt Empordà,02,Alt Empordà,False
+250740,Ciutadilla,38,Urgell,38,Urgell,False
+250753,Clariana de Cardener,35,Solsonès,35,Solsonès,False
+250766,"Cogul, el",18,Garrigues,18,Garrigues,False
+170545,Colera,02,Alt Empordà,02,Alt Empordà,False
+250772,Coll de Nargó,04,Alt Urgell,04,Alt Urgell,False
+080692,Collbató,11,Baix Llobregat,11,Baix Llobregat,False
+430458,Colldejou,08,Baix Camp,08,Baix Camp,False
+080706,Collsuspina,42,Moianès,42,Moianès,False
+170558,Colomers,10,Baix Empordà,10,Baix Empordà,False
+251636,"Coma i la Pedra, la",35,Solsonès,35,Solsonès,False
+251615,Conca de Dalt,25,Pallars Jussà,25,Pallars Jussà,False
+430461,Conesa,16,Conca de Barberà,16,Conca de Barberà,False
+430477,Constantí,36,Tarragonès,36,Tarragonès,False
+080713,Copons,06,Anoia,06,Anoia,False
+430483,Corbera d'Ebre,37,Terra Alta,37,Terra Alta,False
+080728,Corbera de Llobregat,11,Baix Llobregat,11,Baix Llobregat,False
+250788,Corbins,33,Segrià,33,Segrià,False
+170577,Corçà,10,Baix Empordà,10,Baix Empordà,False
+080734,Cornellà de Llobregat,11,Baix Llobregat,11,Baix Llobregat,False
+170561,Cornellà del Terri,28,Pla de l'Estany,28,Pla de l'Estany,False
+430496,Cornudella de Montsant,29,Priorat,29,Priorat,False
+430509,Creixell,36,Tarragonès,36,Tarragonès,False
+170583,Crespià,28,Pla de l'Estany,28,Pla de l'Estany,False
+179011,"Cruïlles, Monells i Sant Sadurní de l'Heura",10,Baix Empordà,10,Baix Empordà,False
+080749,Cubelles,17,Garraf,17,Garraf,False
+250791,Cubells,23,Noguera,23,Noguera,False
+430516,Cunit,12,Baix Penedès,12,Baix Penedès,False
+170600,Darnius,02,Alt Empordà,02,Alt Empordà,False
+170617,Das,15,Cerdanya,15,Cerdanya,False
+439018,Deltebre,09,Baix Ebre,09,Baix Ebre,False
+080752,Dosrius,21,Maresme,21,Maresme,False
+430537,Duesaigües,08,Baix Camp,08,Baix Camp,False
+170622,"Escala, l'",02,Alt Empordà,02,Alt Empordà,False
+080765,Esparreguera,11,Baix Llobregat,11,Baix Llobregat,False
+170638,Espinelves,24,Osona,24,Osona,False
+250812,"Espluga Calba, l'",18,Garrigues,18,Garrigues,False
+430542,"Espluga de Francolí, l'",16,Conca de Barberà,16,Conca de Barberà,False
+080771,Esplugues de Llobregat,11,Baix Llobregat,11,Baix Llobregat,False
+170643,Espolla,02,Alt Empordà,02,Alt Empordà,False
+170656,Esponellà,28,Pla de l'Estany,28,Pla de l'Estany,False
+250827,Espot,26,Pallars Sobirà,26,Pallars Sobirà,False
+080787,"Espunyola, l'",14,Berguedà,14,Berguedà,False
+082541,"Esquirol, l'",24,Osona,24,Osona,False
+250886,Estamariu,04,Alt Urgell,04,Alt Urgell,False
+080790,"Estany, l'",42,Moianès,42,Moianès,False
+250851,Estaràs,32,Segarra,32,Segarra,False
+250864,Esterri d'Àneu,26,Pallars Sobirà,26,Pallars Sobirà,False
+250870,Esterri de Cardós,26,Pallars Sobirà,26,Pallars Sobirà,False
+430555,Falset,29,Priorat,29,Priorat,False
+170059,"Far d'Empordà, el",02,Alt Empordà,02,Alt Empordà,False
+250899,Farrera,26,Pallars Sobirà,26,Pallars Sobirà,False
+430568,"Fatarella, la",37,Terra Alta,37,Terra Alta,False
+430574,"Febró, la",08,Baix Camp,08,Baix Camp,False
+081347,Figaró-Montmany,41,Vallès Oriental,41,Vallès Oriental,False
+080804,Fígols,14,Berguedà,14,Berguedà,False
+259084,Fígols i Alinyà,04,Alt Urgell,04,Alt Urgell,False
+430580,"Figuera, la",29,Priorat,29,Priorat,False
+170669,Figueres,02,Alt Empordà,02,Alt Empordà,False
+430593,Figuerola del Camp,01,Alt Camp,01,Alt Camp,False
+170675,Flaçà,20,Gironès,20,Gironès,False
+430607,Flix,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+250925,"Floresta, la",18,Garrigues,18,Garrigues,False
+080826,Fogars de la Selva,34,Selva,34,Selva,False
+080811,Fogars de Montclús,41,Vallès Oriental,41,Vallès Oriental,False
+170681,Foixà,10,Baix Empordà,10,Baix Empordà,False
+080832,Folgueroles,24,Osona,24,Osona,False
+250931,Fondarella,27,Pla d'Urgell,27,Pla d'Urgell,False
+080847,Fonollosa,07,Bages,07,Bages,False
+080850,Font-rubí,03,Alt Penedès,03,Alt Penedès,False
+170694,Fontanals de Cerdanya,15,Cerdanya,15,Cerdanya,False
+170708,Fontanilles,10,Baix Empordà,10,Baix Empordà,False
+170715,Fontcoberta,28,Pla de l'Estany,28,Pla de l'Estany,False
+250946,Foradada,23,Noguera,23,Noguera,False
+179026,Forallac,10,Baix Empordà,10,Baix Empordà,False
+430614,Forès,16,Conca de Barberà,16,Conca de Barberà,False
+170736,Fornells de la Selva,20,Gironès,20,Gironès,False
+170741,Fortià,02,Alt Empordà,02,Alt Empordà,False
+080863,"Franqueses del Vallès, les",41,Vallès Oriental,41,Vallès Oriental,False
+430629,Freginals,22,Montsià,22,Montsià,False
+250962,"Fuliola, la",38,Urgell,38,Urgell,False
+250978,Fulleda,18,Garrigues,18,Garrigues,False
+080902,Gaià,07,Bages,07,Bages,False
+430635,"Galera, la",22,Montsià,22,Montsià,False
+080879,Gallifa,40,Vallès Occidental,40,Vallès Occidental,False
+430640,Gandesa,37,Terra Alta,37,Terra Alta,False
+430653,Garcia,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+430666,"Garidells, els",01,Alt Camp,01,Alt Camp,False
+080885,"Garriga, la",41,Vallès Oriental,41,Vallès Oriental,False
+170754,Garrigàs,02,Alt Empordà,02,Alt Empordà,False
+170767,Garrigoles,10,Baix Empordà,10,Baix Empordà,False
+170773,Garriguella,02,Alt Empordà,02,Alt Empordà,False
+080898,Gavà,11,Baix Llobregat,11,Baix Llobregat,False
+250984,Gavet de la Conca,25,Pallars Jussà,25,Pallars Jussà,False
+080919,Gelida,03,Alt Penedès,03,Alt Penedès,False
+170789,Ger,15,Cerdanya,15,Cerdanya,False
+259123,Gimenells i el Pla de la Font,33,Segrià,33,Segrià,False
+430672,Ginestar,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+170792,Girona,20,Gironès,20,Gironès,False
+080924,Gironella,14,Berguedà,14,Berguedà,False
+080930,Gisclareny,14,Berguedà,14,Berguedà,False
+430688,Godall,22,Montsià,22,Montsià,False
+250997,Golmés,27,Pla d'Urgell,27,Pla d'Urgell,False
+170806,Gombrèn,31,Ripollès,31,Ripollès,False
+251001,Gósol,14,Berguedà,14,Berguedà,False
+080945,"Granada, la",03,Alt Penedès,03,Alt Penedès,False
+251018,"Granadella, la",18,Garrigues,18,Garrigues,False
+080958,Granera,42,Moianès,42,Moianès,False
+251023,"Granja d'Escarp, la",33,Segrià,33,Segrià,False
+080961,Granollers,41,Vallès Oriental,41,Vallès Oriental,False
+251039,Granyanella,32,Segarra,32,Segarra,False
+251057,Granyena de les Garrigues,18,Garrigues,18,Garrigues,False
+251044,Granyena de Segarra,32,Segarra,32,Segarra,False
+430691,Gratallops,29,Priorat,29,Priorat,False
+080977,Gualba,41,Vallès Oriental,41,Vallès Oriental,False
+170813,Gualta,10,Baix Empordà,10,Baix Empordà,False
+080996,Guardiola de Berguedà,14,Berguedà,14,Berguedà,False
+430705,"Guiamets, els",29,Priorat,29,Priorat,False
+170828,Guils de Cerdanya,15,Cerdanya,15,Cerdanya,False
+251095,Guimerà,38,Urgell,38,Urgell,False
+259031,"Guingueta d'Àneu, la",26,Pallars Sobirà,26,Pallars Sobirà,False
+251109,Guissona,32,Segarra,32,Segarra,False
+251116,Guixers,35,Solsonès,35,Solsonès,False
+081000,Gurb,24,Osona,24,Osona,False
+430712,Horta de Sant Joan,37,Terra Alta,37,Terra Alta,False
+081017,"Hospitalet de Llobregat, l'",13,Barcelonès,13,Barcelonès,False
+081629,"Hostalets de Pierola, els",06,Anoia,06,Anoia,False
+170834,Hostalric,34,Selva,34,Selva,False
+081022,Igualada,06,Anoia,06,Anoia,False
+251155,Isona i Conca Dellà,25,Pallars Jussà,25,Pallars Jussà,False
+170849,Isòvol,15,Cerdanya,15,Cerdanya,False
+251137,Ivars d'Urgell,27,Pla d'Urgell,27,Pla d'Urgell,False
+251121,Ivars de Noguera,23,Noguera,23,Noguera,False
+251142,Ivorra,32,Segarra,32,Segarra,False
+170852,Jafre,10,Baix Empordà,10,Baix Empordà,False
+170865,"Jonquera, la",02,Alt Empordà,02,Alt Empordà,False
+081038,Jorba,06,Anoia,06,Anoia,False
+259101,Josa i Tuixén,04,Alt Urgell,04,Alt Urgell,False
+170871,Juià,20,Gironès,20,Gironès,False
+251180,Juncosa,18,Garrigues,18,Garrigues,False
+251193,Juneda,18,Garrigues,18,Garrigues,False
+251214,Les,39,Aran,39,Aran,False
+251229,Linyola,27,Pla d'Urgell,27,Pla d'Urgell,False
+081043,"Llacuna, la",06,Anoia,06,Anoia,False
+170887,Lladó,02,Alt Empordà,02,Alt Empordà,False
+251235,Lladorre,26,Pallars Sobirà,26,Pallars Sobirà,False
+251240,Lladurs,35,Solsonès,35,Solsonès,False
+081056,"Llagosta, la",41,Vallès Oriental,41,Vallès Oriental,False
+170890,Llagostera,20,Gironès,20,Gironès,False
+170904,Llambilles,20,Gironès,20,Gironès,False
+170911,Llanars,31,Ripollès,31,Ripollès,False
+170926,Llançà,02,Alt Empordà,02,Alt Empordà,False
+251253,Llardecans,33,Segrià,33,Segrià,False
+251266,Llavorsí,26,Pallars Sobirà,26,Pallars Sobirà,False
+251207,Lleida,33,Segrià,33,Segrià,False
+170932,Llers,02,Alt Empordà,02,Alt Empordà,False
+251272,Lles de Cerdanya,15,Cerdanya,15,Cerdanya,False
+081075,Lliçà d'Amunt,41,Vallès Oriental,41,Vallès Oriental,False
+081081,Lliçà de Vall,41,Vallès Oriental,41,Vallès Oriental,False
+251288,Llimiana,25,Pallars Jussà,25,Pallars Jussà,False
+081069,Llinars del Vallès,41,Vallès Oriental,41,Vallès Oriental,False
+170947,Llívia,15,Cerdanya,15,Cerdanya,False
+430727,"Lloar, el",29,Priorat,29,Priorat,False
+251291,Llobera,35,Solsonès,35,Solsonès,False
+430733,Llorac,16,Conca de Barberà,16,Conca de Barberà,False
+430748,Llorenç del Penedès,12,Baix Penedès,12,Baix Penedès,False
+170950,Lloret de Mar,34,Selva,34,Selva,False
+170963,"Llosses, les",31,Ripollès,31,Ripollès,False
+081094,Lluçà,43,Lluçanès,43,Lluçanès,False
+171024,Maçanet de Cabrenys,02,Alt Empordà,02,Alt Empordà,False
+171030,Maçanet de la Selva,34,Selva,34,Selva,False
+170979,Madremanya,20,Gironès,20,Gironès,False
+170985,Maià de Montcal,19,Garrotxa,19,Garrotxa,False
+251333,Maials,33,Segrià,33,Segrià,False
+251305,Maldà,38,Urgell,38,Urgell,False
+081108,Malgrat de Mar,21,Maresme,21,Maresme,False
+081115,Malla,24,Osona,24,Osona,False
+081120,Manlleu,24,Osona,24,Osona,False
+081136,Manresa,07,Bages,07,Bages,False
+430764,Marçà,29,Priorat,29,Priorat,False
+430751,Margalef,29,Priorat,29,Priorat,False
+082423,Marganell,07,Bages,07,Bages,False
+081141,Martorell,11,Baix Llobregat,11,Baix Llobregat,False
+081154,Martorelles,41,Vallès Oriental,41,Vallès Oriental,False
+430770,Mas de Barberans,22,Montsià,22,Montsià,False
+171002,Masarac i Vilarnadal,02,Alt Empordà,02,Alt Empordà,False
+430786,Masdenverge,22,Montsià,22,Montsià,False
+081167,"Masies de Roda, les",24,Osona,24,Osona,False
+081173,"Masies de Voltregà, les",24,Osona,24,Osona,False
+430799,Masllorenç,12,Baix Penedès,12,Baix Penedès,False
+081189,"Masnou, el",21,Maresme,21,Maresme,False
+430803,"Masó, la",01,Alt Camp,01,Alt Camp,False
+430810,Maspujols,08,Baix Camp,08,Baix Camp,False
+081192,Masquefa,06,Anoia,06,Anoia,False
+430825,"Masroig, el",29,Priorat,29,Priorat,False
+251312,Massalcoreig,33,Segrià,33,Segrià,False
+171019,Massanes,34,Selva,34,Selva,False
+251327,Massoteres,32,Segarra,32,Segarra,False
+081206,Matadepera,40,Vallès Occidental,40,Vallès Occidental,False
+081213,Mataró,21,Maresme,21,Maresme,False
+081228,Mediona,03,Alt Penedès,03,Alt Penedès,False
+251348,Menàrguens,23,Noguera,23,Noguera,False
+170998,Meranges,15,Cerdanya,15,Cerdanya,False
+171058,Mieres,19,Garrotxa,19,Garrotxa,False
+430831,"Milà, el",01,Alt Camp,01,Alt Camp,False
+251351,Miralcamp,27,Pla d'Urgell,27,Pla d'Urgell,False
+430846,Miravet,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+081385,Moià,42,Moianès,42,Moianès,False
+430859,"Molar, el",29,Priorat,29,Priorat,False
+081234,Molins de Rei,11,Baix Llobregat,11,Baix Llobregat,False
+251370,Mollerussa,27,Pla d'Urgell,27,Pla d'Urgell,False
+171061,Mollet de Peralada,02,Alt Empordà,02,Alt Empordà,False
+081249,Mollet del Vallès,41,Vallès Oriental,41,Vallès Oriental,False
+171077,Molló,31,Ripollès,31,Ripollès,False
+251364,"Molsosa, la",35,Solsonès,35,Solsonès,False
+081287,Monistrol de Calders,42,Moianès,42,Moianès,False
+081271,Monistrol de Montserrat,07,Bages,07,Bages,False
+430918,Mont-ral,01,Alt Camp,01,Alt Camp,False
+171100,Mont-ras,10,Baix Empordà,10,Baix Empordà,False
+430923,Mont-roig del Camp,08,Baix Camp,08,Baix Camp,False
+171096,Montagut i Oix,19,Garrotxa,19,Garrotxa,False
+430862,Montblanc,16,Conca de Barberà,16,Conca de Barberà,False
+430884,Montbrió del Camp,08,Baix Camp,08,Baix Camp,False
+081252,Montcada i Reixac,40,Vallès Occidental,40,Vallès Occidental,False
+081304,Montclar,14,Berguedà,14,Berguedà,False
+251399,Montellà i Martinet,15,Cerdanya,15,Cerdanya,False
+081311,Montesquiu,24,Osona,24,Osona,False
+251403,Montferrer i Castellbò,04,Alt Urgell,04,Alt Urgell,False
+430897,Montferri,01,Alt Camp,01,Alt Camp,False
+251386,Montgai,23,Noguera,23,Noguera,False
+081265,Montgat,21,Maresme,21,Maresme,False
+081326,Montmajor,14,Berguedà,14,Berguedà,False
+081332,Montmaneu,06,Anoia,06,Anoia,False
+430901,"Montmell, el",12,Baix Penedès,12,Baix Penedès,False
+081350,Montmeló,41,Vallès Oriental,41,Vallès Oriental,False
+251425,Montoliu de Lleida,33,Segrià,33,Segrià,False
+251410,Montoliu de Segarra,32,Segarra,32,Segarra,False
+251431,Montornès de Segarra,32,Segarra,32,Segarra,False
+081363,Montornès del Vallès,41,Vallès Oriental,41,Vallès Oriental,False
+081379,Montseny,41,Vallès Oriental,41,Vallès Oriental,False
+430939,Móra d'Ebre,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+430944,Móra la Nova,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+430957,"Morell, el",36,Tarragonès,36,Tarragonès,False
+430960,"Morera de Montsant, la",29,Priorat,29,Priorat,False
+081290,Muntanyola,24,Osona,24,Osona,False
+081398,Mura,07,Bages,07,Bages,False
+251459,Nalec,38,Urgell,38,Urgell,False
+250254,Naut Aran,39,Aran,39,Aran,False
+081402,Navarcles,07,Bages,07,Bages,False
+081419,Navàs,07,Bages,07,Bages,False
+171117,Navata,02,Alt Empordà,02,Alt Empordà,False
+251462,Navès,35,Solsonès,35,Solsonès,False
+081424,"Nou de Berguedà, la",14,Berguedà,14,Berguedà,False
+430976,"Nou de Gaià, la",36,Tarragonès,36,Tarragonès,False
+430982,Nulles,01,Alt Camp,01,Alt Camp,False
+251484,Odèn,35,Solsonès,35,Solsonès,False
+081430,Òdena,06,Anoia,06,Anoia,False
+171122,Ogassa,31,Ripollès,31,Ripollès,False
+081458,Olèrdola,03,Alt Penedès,03,Alt Penedès,False
+081461,Olesa de Bonesvalls,03,Alt Penedès,03,Alt Penedès,False
+081477,Olesa de Montserrat,11,Baix Llobregat,11,Baix Llobregat,False
+251497,Oliana,04,Alt Urgell,04,Alt Urgell,False
+251500,Oliola,23,Noguera,23,Noguera,False
+251517,Olius,35,Solsonès,35,Solsonès,False
+081483,Olivella,17,Garraf,17,Garraf,False
+081496,Olost,43,Lluçanès,43,Lluçanès,False
+171143,Olot,19,Garrotxa,19,Garrotxa,False
+251522,"Oluges, les",32,Segarra,32,Segarra,False
+081445,Olvan,14,Berguedà,14,Berguedà,False
+251538,"Omellons, els",18,Garrigues,18,Garrigues,False
+251543,"Omells de na Gaia, els",38,Urgell,38,Urgell,False
+171156,Ordis,02,Alt Empordà,02,Alt Empordà,False
+251556,Organyà,04,Alt Urgell,04,Alt Urgell,False
+081509,Orís,24,Osona,24,Osona,False
+081516,Oristà,43,Lluçanès,43,Lluçanès,False
+081521,Orpí,06,Anoia,06,Anoia,False
+081537,Òrrius,21,Maresme,21,Maresme,False
+251569,Os de Balaguer,23,Noguera,23,Noguera,False
+171169,Osor,34,Selva,34,Selva,False
+251575,Ossó de Sió,38,Urgell,38,Urgell,False
+081542,Pacs del Penedès,03,Alt Penedès,03,Alt Penedès,False
+081555,Palafolls,21,Maresme,21,Maresme,False
+171175,Palafrugell,10,Baix Empordà,10,Baix Empordà,False
+171181,Palamós i Sant Joan,10,Baix Empordà,10,Baix Empordà,False
+251581,"Palau d'Anglesola, el",27,Pla d'Urgell,27,Pla d'Urgell,False
+171194,Palau de Santa Eulàlia,02,Alt Empordà,02,Alt Empordà,False
+171215,Palau-sator,10,Baix Empordà,10,Baix Empordà,False
+171208,Palau-saverdera,02,Alt Empordà,02,Alt Empordà,False
+081568,Palau-solità i Plegamans,40,Vallès Occidental,40,Vallès Occidental,False
+431009,"Pallaresos, els",36,Tarragonès,36,Tarragonès,False
+081574,Pallejà,11,Baix Llobregat,11,Baix Llobregat,False
+430995,"Palma d'Ebre, la",30,Ribera d'Ebre,30,Ribera d'Ebre,False
+089058,"Palma de Cervelló, la",11,Baix Llobregat,11,Baix Llobregat,False
+171236,Palol de Revardit,28,Pla de l'Estany,28,Pla de l'Estany,False
+171241,Pals,10,Baix Empordà,10,Baix Empordà,False
+081580,"Papiol, el",11,Baix Llobregat,11,Baix Llobregat,False
+171254,Pardines,31,Ripollès,31,Ripollès,False
+081593,Parets del Vallès,41,Vallès Oriental,41,Vallès Oriental,False
+171267,Parlavà,10,Baix Empordà,10,Baix Empordà,False
+431016,Passanant i Belltall,16,Conca de Barberà,16,Conca de Barberà,False
+171289,Pau,02,Alt Empordà,02,Alt Empordà,False
+431021,Paüls,09,Baix Ebre,09,Baix Ebre,False
+171292,Pedret i Marzà,02,Alt Empordà,02,Alt Empordà,False
+251641,Penelles,23,Noguera,23,Noguera,False
+171306,"Pera, la",10,Baix Empordà,10,Baix Empordà,False
+081607,Perafita,43,Lluçanès,43,Lluçanès,False
+431037,Perafort,36,Tarragonès,36,Tarragonès,False
+171328,Peralada,02,Alt Empordà,02,Alt Empordà,False
+251654,Peramola,04,Alt Urgell,04,Alt Urgell,False
+431042,"Perelló, el",09,Baix Ebre,09,Baix Ebre,False
+081614,Piera,06,Anoia,06,Anoia,False
+431055,"Piles, les",16,Conca de Barberà,16,Conca de Barberà,False
+081635,Pineda de Mar,21,Maresme,21,Maresme,False
+431068,"Pinell de Brai, el",37,Terra Alta,37,Terra Alta,False
+251667,Pinell de Solsonès,35,Solsonès,35,Solsonès,False
+251673,Pinós,35,Solsonès,35,Solsonès,False
+431074,Pira,16,Conca de Barberà,16,Conca de Barberà,False
+431080,"Pla de Santa Maria, el",01,Alt Camp,01,Alt Camp,False
+081640,"Pla del Penedès, el",03,Alt Penedès,03,Alt Penedès,False
+171334,"Planes d'Hostoles, les",19,Garrotxa,19,Garrotxa,False
+171349,Planoles,31,Ripollès,31,Ripollès,False
+259118,"Plans de Sió, els",32,Segarra,32,Segarra,False
+251689,"Poal, el",27,Pla d'Urgell,27,Pla d'Urgell,False
+251692,"Pobla de Cérvoles, la",18,Garrigues,18,Garrigues,False
+081653,"Pobla de Claramunt, la",06,Anoia,06,Anoia,False
+081666,"Pobla de Lillet, la",14,Berguedà,14,Berguedà,False
+431093,"Pobla de Mafumet, la",36,Tarragonès,36,Tarragonès,False
+431107,"Pobla de Massaluca, la",37,Terra Alta,37,Terra Alta,False
+431114,"Pobla de Montornès, la",36,Tarragonès,36,Tarragonès,False
+251713,"Pobla de Segur, la",25,Pallars Jussà,25,Pallars Jussà,False
+431129,Poboleda,29,Priorat,29,Priorat,False
+081672,Polinyà,40,Vallès Occidental,40,Vallès Occidental,False
+431135,"Pont d'Armentera, el",01,Alt Camp,01,Alt Camp,False
+250306,"Pont de Bar, el",04,Alt Urgell,04,Alt Urgell,False
+171352,Pont de Molins,02,Alt Empordà,02,Alt Empordà,False
+251734,"Pont de Suert, el",05,Alta Ribagorça,05,Alta Ribagorça,False
+081825,"Pont de Vilomara i Rocafort, el",07,Bages,07,Bages,False
+431418,Pontils,16,Conca de Barberà,16,Conca de Barberà,False
+081688,Pontons,03,Alt Penedès,03,Alt Penedès,False
+171365,Pontós,02,Alt Empordà,02,Alt Empordà,False
+251728,Ponts,23,Noguera,23,Noguera,False
+171371,Porqueres,28,Pla de l'Estany,28,Pla de l'Estany,False
+431140,Porrera,29,Priorat,29,Priorat,False
+171404,"Port de la Selva, el",02,Alt Empordà,02,Alt Empordà,False
+171387,Portbou,02,Alt Empordà,02,Alt Empordà,False
+251749,"Portella, la",33,Segrià,33,Segrià,False
+431153,Pradell de la Teixeta,29,Priorat,29,Priorat,False
+431166,Prades,08,Baix Camp,08,Baix Camp,False
+431172,Prat de Comte,37,Terra Alta,37,Terra Alta,False
+081691,"Prat de Llobregat, el",11,Baix Llobregat,11,Baix Llobregat,False
+431188,Pratdip,08,Baix Camp,08,Baix Camp,False
+081712,Prats de Lluçanès,43,Lluçanès,43,Lluçanès,False
+081705,"Prats de Rei, els",06,Anoia,06,Anoia,False
+251752,Prats i Sansor,15,Cerdanya,15,Cerdanya,False
+251765,Preixana,38,Urgell,38,Urgell,False
+251771,Preixens,23,Noguera,23,Noguera,False
+082303,Premià de Dalt,21,Maresme,21,Maresme,False
+081727,Premià de Mar,21,Maresme,21,Maresme,False
+171390,"Preses, les",19,Garrotxa,19,Garrotxa,False
+251790,Prullans,15,Cerdanya,15,Cerdanya,False
+081751,Puig-reig,14,Berguedà,14,Berguedà,False
+171411,Puigcerdà,15,Cerdanya,15,Cerdanya,False
+081748,Puigdàlber,03,Alt Penedès,03,Alt Penedès,False
+251804,Puiggròs,18,Garrigues,18,Garrigues,False
+431191,Puigpelat,01,Alt Camp,01,Alt Camp,False
+251811,Puigverd d'Agramunt,38,Urgell,38,Urgell,False
+251826,Puigverd de Lleida,33,Segrià,33,Segrià,False
+081764,Pujalt,06,Anoia,06,Anoia,False
+081770,"Quar, la",14,Berguedà,14,Berguedà,False
+171426,Quart,20,Gironès,20,Gironès,False
+170433,Queralbs,31,Ripollès,31,Ripollès,False
+431205,Querol,01,Alt Camp,01,Alt Camp,False
+171432,Rabós,02,Alt Empordà,02,Alt Empordà,False
+081786,Rajadell,07,Bages,07,Bages,False
+431362,"Ràpita, la",22,Montsià,22,Montsià,False
+431212,Rasquera,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+171447,Regencós,10,Baix Empordà,10,Baix Empordà,False
+081799,Rellinars,40,Vallès Occidental,40,Vallès Occidental,False
+431227,Renau,36,Tarragonès,36,Tarragonès,False
+431233,Reus,08,Baix Camp,08,Baix Camp,False
+251832,Rialp,26,Pallars Sobirà,26,Pallars Sobirà,False
+431248,"Riba, la",01,Alt Camp,01,Alt Camp,False
+431251,Riba-roja d'Ebre,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+259059,Ribera d'Ondara,32,Segarra,32,Segarra,False
+251850,Ribera d'Urgellet,04,Alt Urgell,04,Alt Urgell,False
+171450,Ribes de Freser,31,Ripollès,31,Ripollès,False
+171463,Riells i Viabrea,34,Selva,34,Selva,False
+431264,"Riera de Gaià, la",36,Tarragonès,36,Tarragonès,False
+251863,Riner,35,Solsonès,35,Solsonès,False
+171479,Ripoll,31,Ripollès,31,Ripollès,False
+081803,Ripollet,40,Vallès Occidental,40,Vallès Occidental,False
+259139,Riu de Cerdanya,15,Cerdanya,15,Cerdanya,False
+171485,Riudarenes,34,Selva,34,Selva,False
+171498,Riudaura,19,Garrotxa,19,Garrotxa,False
+431270,Riudecanyes,08,Baix Camp,08,Baix Camp,False
+431286,Riudecols,08,Baix Camp,08,Baix Camp,False
+171501,Riudellots de la Selva,34,Selva,34,Selva,False
+431299,Riudoms,08,Baix Camp,08,Baix Camp,False
+171518,Riumors,02,Alt Empordà,02,Alt Empordà,False
+081810,"Roca del Vallès, la",41,Vallès Oriental,41,Vallès Oriental,False
+431303,Rocafort de Queralt,16,Conca de Barberà,16,Conca de Barberà,False
+431310,Roda de Berà,36,Tarragonès,36,Tarragonès,False
+081831,Roda de Ter,24,Osona,24,Osona,False
+431325,Rodonyà,01,Alt Camp,01,Alt Camp,False
+431331,Roquetes,09,Baix Ebre,09,Baix Ebre,False
+171523,Roses,02,Alt Empordà,02,Alt Empordà,False
+251898,Rosselló,33,Segrià,33,Segrià,False
+431346,"Rourell, el",01,Alt Camp,01,Alt Camp,False
+081846,Rubí,40,Vallès Occidental,40,Vallès Occidental,False
+081859,Rubió,06,Anoia,06,Anoia,False
+171539,Rupià,10,Baix Empordà,10,Baix Empordà,False
+089019,Rupit i Pruit,24,Osona,24,Osona,False
+081878,Sabadell,40,Vallès Occidental,40,Vallès Occidental,False
+081884,Sagàs,14,Berguedà,14,Berguedà,False
+251902,Salàs de Pallars,25,Pallars Jussà,25,Pallars Jussà,False
+081901,Saldes,14,Berguedà,14,Berguedà,False
+171544,Sales de Llierca,19,Garrotxa,19,Garrotxa,False
+081918,Sallent,07,Bages,07,Bages,False
+431359,Salomó,36,Tarragonès,36,Tarragonès,False
+439057,Salou,36,Tarragonès,36,Tarragonès,False
+171557,Salt,20,Gironès,20,Gironès,False
+251919,Sanaüja,32,Segarra,32,Segarra,False
+081944,Sant Adrià de Besòs,13,Barcelonès,13,Barcelonès,False
+081957,Sant Agustí de Lluçanès,24,Osona,24,Osona,False
+081960,Sant Andreu de la Barca,11,Baix Llobregat,11,Baix Llobregat,False
+081976,Sant Andreu de Llavaneres,21,Maresme,21,Maresme,False
+171576,Sant Andreu Salou,20,Gironès,20,Gironès,False
+171833,Sant Aniol de Finestres,19,Garrotxa,19,Garrotxa,False
+081982,Sant Antoni de Vilamajor,41,Vallès Oriental,41,Vallès Oriental,False
+081995,Sant Bartomeu del Grau,24,Osona,24,Osona,False
+082009,Sant Boi de Llobregat,11,Baix Llobregat,11,Baix Llobregat,False
+082016,Sant Boi de Lluçanès,24,Osona,24,Osona,False
+082037,Sant Cebrià de Vallalta,21,Maresme,21,Maresme,False
+082021,Sant Celoni,41,Vallès Oriental,41,Vallès Oriental,False
+082042,Sant Climent de Llobregat,11,Baix Llobregat,11,Baix Llobregat,False
+171582,Sant Climent Sescebes,02,Alt Empordà,02,Alt Empordà,False
+082055,Sant Cugat del Vallès,40,Vallès Occidental,40,Vallès Occidental,False
+082068,Sant Cugat Sesgarrigues,03,Alt Penedès,03,Alt Penedès,False
+251961,Sant Esteve de la Sarga,25,Pallars Jussà,25,Pallars Jussà,False
+082074,Sant Esteve de Palautordera,41,Vallès Oriental,41,Vallès Oriental,False
+082080,Sant Esteve Sesrovires,11,Baix Llobregat,11,Baix Llobregat,False
+171595,Sant Feliu de Buixalleu,34,Selva,34,Selva,False
+082107,Sant Feliu de Codines,41,Vallès Oriental,41,Vallès Oriental,False
+171609,Sant Feliu de Guíxols,10,Baix Empordà,10,Baix Empordà,False
+082114,Sant Feliu de Llobregat,11,Baix Llobregat,11,Baix Llobregat,False
+171616,Sant Feliu de Pallerols,19,Garrotxa,19,Garrotxa,False
+082129,Sant Feliu Sasserra,07,Bages,07,Bages,False
+171621,Sant Ferriol,19,Garrotxa,19,Garrotxa,False
+082093,Sant Fost de Campsentelles,41,Vallès Oriental,41,Vallès Oriental,False
+082135,Sant Fruitós de Bages,07,Bages,07,Bages,False
+171637,Sant Gregori,20,Gironès,20,Gironès,False
+251924,Sant Guim de Freixenet,32,Segarra,32,Segarra,False
+251977,Sant Guim de la Plana,32,Segarra,32,Segarra,False
+171642,Sant Hilari Sacalm,34,Selva,34,Selva,False
+082153,Sant Hipòlit de Voltregà,24,Osona,24,Osona,False
+081939,Sant Iscle de Vallalta,21,Maresme,21,Maresme,False
+439023,Sant Jaume d'Enveja,22,Montsià,22,Montsià,False
+082166,Sant Jaume de Frontanyà,14,Berguedà,14,Berguedà,False
+171655,Sant Jaume de Llierca,19,Garrotxa,19,Garrotxa,False
+431378,Sant Jaume dels Domenys,12,Baix Penedès,12,Baix Penedès,False
+171674,Sant Joan de les Abadesses,31,Ripollès,31,Ripollès,False
+171680,Sant Joan de Mollet,20,Gironès,20,Gironès,False
+082188,Sant Joan de Vilatorrada,07,Bages,07,Bages,False
+082172,Sant Joan Despí,11,Baix Llobregat,11,Baix Llobregat,False
+171851,Sant Joan les Fonts,19,Garrotxa,19,Garrotxa,False
+171668,Sant Jordi Desvalls,20,Gironès,20,Gironès,False
+089030,Sant Julià de Cerdanyola,14,Berguedà,14,Berguedà,False
+171693,Sant Julià de Ramis,20,Gironès,20,Gironès,False
+082205,Sant Julià de Vilatorta,24,Osona,24,Osona,False
+179032,Sant Julià del Llor i Bonmatí,34,Selva,34,Selva,False
+082212,Sant Just Desvern,11,Baix Llobregat,11,Baix Llobregat,False
+082227,Sant Llorenç d'Hortons,03,Alt Penedès,03,Alt Penedès,False
+171714,Sant Llorenç de la Muga,02,Alt Empordà,02,Alt Empordà,False
+251930,Sant Llorenç de Morunys,35,Solsonès,35,Solsonès,False
+082233,Sant Llorenç Savall,40,Vallès Occidental,40,Vallès Occidental,False
+082251,Sant Martí d'Albars,43,Lluçanès,43,Lluçanès,False
+082248,Sant Martí de Centelles,24,Osona,24,Osona,False
+171729,Sant Martí de Llémena,20,Gironès,20,Gironès,False
+259025,Sant Martí de Riucorb,38,Urgell,38,Urgell,False
+082264,Sant Martí de Tous,06,Anoia,06,Anoia,False
+082270,Sant Martí Sarroca,03,Alt Penedès,03,Alt Penedès,False
+082286,Sant Martí Sesgueioles,06,Anoia,06,Anoia,False
+171735,Sant Martí Vell,20,Gironès,20,Gironès,False
+082299,Sant Mateu de Bages,07,Bages,07,Bages,False
+171740,Sant Miquel de Campmajor,28,Pla de l'Estany,28,Pla de l'Estany,False
+171753,Sant Miquel de Fluvià,02,Alt Empordà,02,Alt Empordà,False
+171766,Sant Mori,02,Alt Empordà,02,Alt Empordà,False
+171772,Sant Pau de Segúries,31,Ripollès,31,Ripollès,False
+082310,Sant Pere de Ribes,17,Garraf,17,Garraf,False
+082325,Sant Pere de Riudebitlles,03,Alt Penedès,03,Alt Penedès,False
+082331,Sant Pere de Torelló,24,Osona,24,Osona,False
+082346,Sant Pere de Vilamajor,41,Vallès Oriental,41,Vallès Oriental,False
+171788,Sant Pere Pescador,02,Alt Empordà,02,Alt Empordà,False
+081897,Sant Pere Sallavinera,06,Anoia,06,Anoia,False
+082359,Sant Pol de Mar,21,Maresme,21,Maresme,False
+082362,Sant Quintí de Mediona,03,Alt Penedès,03,Alt Penedès,False
+082378,Sant Quirze de Besora,24,Osona,24,Osona,False
+082384,Sant Quirze del Vallès,40,Vallès Occidental,40,Vallès Occidental,False
+082397,Sant Quirze Safaja,42,Moianès,42,Moianès,False
+251945,Sant Ramon,32,Segarra,32,Segarra,False
+082401,Sant Sadurní d'Anoia,03,Alt Penedès,03,Alt Penedès,False
+082418,Sant Sadurní d'Osormort,24,Osona,24,Osona,False
+080983,Sant Salvador de Guardiola,07,Bages,07,Bages,False
+082628,Sant Vicenç de Castellet,07,Bages,07,Bages,False
+082649,Sant Vicenç de Montalt,21,Maresme,21,Maresme,False
+082652,Sant Vicenç de Torelló,24,Osona,24,Osona,False
+082634,Sant Vicenç dels Horts,11,Baix Llobregat,11,Baix Llobregat,False
+431384,Santa Bàrbara,22,Montsià,22,Montsià,False
+082439,Santa Cecília de Voltregà,24,Osona,24,Osona,False
+082444,Santa Coloma de Cervelló,11,Baix Llobregat,11,Baix Llobregat,False
+171805,Santa Coloma de Farners,34,Selva,34,Selva,False
+082457,Santa Coloma de Gramenet,13,Barcelonès,13,Barcelonès,False
+431397,Santa Coloma de Queralt,16,Conca de Barberà,16,Conca de Barberà,False
+171812,Santa Cristina d'Aro,10,Baix Empordà,10,Baix Empordà,False
+082460,Santa Eugènia de Berga,24,Osona,24,Osona,False
+082476,Santa Eulàlia de Riuprimer,24,Osona,24,Osona,False
+082482,Santa Eulàlia de Ronçana,41,Vallès Oriental,41,Vallès Oriental,False
+082495,Santa Fe del Penedès,03,Alt Penedès,03,Alt Penedès,False
+171827,Santa Llogaia d'Àlguema,02,Alt Empordà,02,Alt Empordà,False
+082508,Santa Margarida de Montbui,06,Anoia,06,Anoia,False
+082515,Santa Margarida i els Monjos,03,Alt Penedès,03,Alt Penedès,False
+082589,Santa Maria d'Oló,42,Moianès,42,Moianès,False
+082536,Santa Maria de Besora,24,Osona,24,Osona,False
+082567,Santa Maria de Martorelles,41,Vallès Oriental,41,Vallès Oriental,False
+082554,Santa Maria de Merlès,14,Berguedà,14,Berguedà,False
+082573,Santa Maria de Miralles,06,Anoia,06,Anoia,False
+082592,Santa Maria de Palautordera,41,Vallès Oriental,41,Vallès Oriental,False
+431401,Santa Oliva,12,Baix Penedès,12,Baix Penedès,False
+171848,Santa Pau,19,Garrotxa,19,Garrotxa,False
+082606,Santa Perpètua de Mogoda,40,Vallès Occidental,40,Vallès Occidental,False
+082613,Santa Susanna,21,Maresme,21,Maresme,False
+081923,Santpedor,07,Bages,07,Bages,False
+431423,Sarral,16,Conca de Barberà,16,Conca de Barberà,False
+171864,Sarrià de Ter,20,Gironès,20,Gironès,False
+252017,Sarroca de Bellera,25,Pallars Jussà,25,Pallars Jussà,False
+252000,Sarroca de Lleida,33,Segrià,33,Segrià,False
+171870,"Saus, Camallera i Llampaies",02,Alt Empordà,02,Alt Empordà,False
+431439,Savallà del Comtat,16,Conca de Barberà,16,Conca de Barberà,False
+431444,"Secuita, la",36,Tarragonès,36,Tarragonès,False
+171886,"Selva de Mar, la",02,Alt Empordà,02,Alt Empordà,False
+431457,"Selva del Camp, la",08,Baix Camp,08,Baix Camp,False
+431460,Senan,16,Conca de Barberà,16,Conca de Barberà,False
+430445,"Sénia, la",22,Montsià,22,Montsià,False
+252022,Senterada,25,Pallars Jussà,25,Pallars Jussà,False
+250352,"Sentiu de Sió, la",23,Noguera,23,Noguera,False
+082671,Sentmenat,40,Vallès Occidental,40,Vallès Occidental,False
+171903,Serinyà,28,Pla de l'Estany,28,Pla de l'Estany,False
+252043,Seròs,33,Segrià,33,Segrià,False
+171910,Serra de Daró,10,Baix Empordà,10,Baix Empordà,False
+171925,Setcases,31,Ripollès,31,Ripollès,False
+252038,"Seu d'Urgell, la",04,Alt Urgell,04,Alt Urgell,False
+082690,Seva,24,Osona,24,Osona,False
+252056,Sidamon,27,Pla d'Urgell,27,Pla d'Urgell,False
+171931,Sils,34,Selva,34,Selva,False
+082704,Sitges,17,Garraf,17,Garraf,False
+170524,Siurana,02,Alt Empordà,02,Alt Empordà,False
+082711,Sobremunt,43,Lluçanès,43,Lluçanès,False
+252069,"Soleràs, el",18,Garrigues,18,Garrigues,False
+431476,Solivella,16,Conca de Barberà,16,Conca de Barberà,False
+252075,Solsona,35,Solsonès,35,Solsonès,False
+082726,Sora,24,Osona,24,Osona,False
+252081,Soriguera,26,Pallars Sobirà,26,Pallars Sobirà,False
+252094,Sort,26,Pallars Sobirà,26,Pallars Sobirà,False
+252108,Soses,33,Segrià,33,Segrià,False
+082732,Subirats,03,Alt Penedès,03,Alt Penedès,False
+252115,Sudanell,33,Segrià,33,Segrià,False
+252120,Sunyer,33,Segrià,33,Segrià,False
+082747,Súria,07,Bages,07,Bages,False
+171946,Susqueda,34,Selva,34,Selva,False
+082763,Tagamanent,41,Vallès Oriental,41,Vallès Oriental,False
+082779,Talamanca,07,Bages,07,Bages,False
+252154,Talarn,25,Pallars Jussà,25,Pallars Jussà,False
+252167,Talavera,32,Segarra,32,Segarra,False
+171959,"Tallada d'Empordà, la",10,Baix Empordà,10,Baix Empordà,False
+082785,Taradell,24,Osona,24,Osona,False
+431482,Tarragona,36,Tarragonès,36,Tarragonès,False
+252173,Tàrrega,38,Urgell,38,Urgell,False
+252189,Tarrés,18,Garrigues,18,Garrigues,False
+252192,Tarroja de Segarra,32,Segarra,32,Segarra,False
+082750,Tavèrnoles,24,Osona,24,Osona,False
+082802,Tavertet,24,Osona,24,Osona,False
+082819,Teià,21,Maresme,21,Maresme,False
+252206,Térmens,23,Noguera,23,Noguera,False
+171962,Terrades,02,Alt Empordà,02,Alt Empordà,False
+082798,Terrassa,40,Vallès Occidental,40,Vallès Occidental,False
+082824,Tiana,21,Maresme,21,Maresme,False
+252213,Tírvia,26,Pallars Sobirà,26,Pallars Sobirà,False
+252228,Tiurana,23,Noguera,23,Noguera,False
+431495,Tivenys,09,Baix Ebre,09,Baix Ebre,False
+431508,Tivissa,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+082830,Tona,24,Osona,24,Osona,False
+252234,Torà,35,Solsonès,35,Solsonès,False
+082845,Tordera,21,Maresme,21,Maresme,False
+082858,Torelló,24,Osona,24,Osona,False
+252249,"Torms, els",18,Garrigues,18,Garrigues,False
+252252,Tornabous,38,Urgell,38,Urgell,False
+252271,"Torre de Cabdella, la",25,Pallars Jussà,25,Pallars Jussà,False
+082861,"Torre de Claramunt, la",06,Anoia,06,Anoia,False
+431515,"Torre de Fontaubella, la",29,Priorat,29,Priorat,False
+431520,"Torre de l'Espanyol, la",30,Ribera d'Ebre,30,Ribera d'Ebre,False
+252332,Torre-serona,33,Segrià,33,Segrià,False
+252265,Torrebesses,33,Segrià,33,Segrià,False
+431536,Torredembarra,36,Tarragonès,36,Tarragonès,False
+252287,Torrefarrera,33,Segrià,33,Segrià,False
+259078,Torrefeta i Florejacs,32,Segarra,32,Segarra,False
+252304,Torregrossa,27,Pla d'Urgell,27,Pla d'Urgell,False
+252311,Torrelameu,23,Noguera,23,Noguera,False
+082877,Torrelavit,03,Alt Penedès,03,Alt Penedès,False
+082883,Torrelles de Foix,03,Alt Penedès,03,Alt Penedès,False
+082896,Torrelles de Llobregat,11,Baix Llobregat,11,Baix Llobregat,False
+171978,Torrent,10,Baix Empordà,10,Baix Empordà,False
+252326,Torres de Segre,33,Segrià,33,Segrià,False
+171984,Torroella de Fluvià,02,Alt Empordà,02,Alt Empordà,False
+171997,Torroella de Montgrí,10,Baix Empordà,10,Baix Empordà,False
+431541,Torroja del Priorat,29,Priorat,29,Priorat,False
+172001,Tortellà,19,Garrotxa,19,Garrotxa,False
+431554,Tortosa,09,Baix Ebre,09,Baix Ebre,False
+172018,Toses,31,Ripollès,31,Ripollès,False
+172023,Tossa de Mar,34,Selva,34,Selva,False
+252347,Tremp,25,Pallars Jussà,25,Pallars Jussà,False
+172044,Ullà,10,Baix Empordà,10,Baix Empordà,False
+082900,Ullastrell,40,Vallès Occidental,40,Vallès Occidental,False
+172057,Ullastret,10,Baix Empordà,10,Baix Empordà,False
+431567,Ulldecona,22,Montsià,22,Montsià,False
+431573,Ulldemolins,29,Priorat,29,Priorat,False
+172039,Ultramort,10,Baix Empordà,10,Baix Empordà,False
+172060,Urús,15,Cerdanya,15,Cerdanya,False
+082917,Vacarisses,40,Vallès Occidental,40,Vallès Occidental,False
+170144,"Vajol, la",02,Alt Empordà,02,Alt Empordà,False
+172076,"Vall d'en Bas, la",19,Garrotxa,19,Garrotxa,False
+172082,"Vall de Bianya, la",19,Garrotxa,19,Garrotxa,False
+250432,"Vall de Boí, la",05,Alta Ribagorça,05,Alta Ribagorça,False
+259010,Vall de Cardós,26,Pallars Sobirà,26,Pallars Sobirà,False
+172095,Vall-llobrega,10,Baix Empordà,10,Baix Empordà,False
+082922,Vallbona d'Anoia,06,Anoia,06,Anoia,False
+252385,Vallbona de les Monges,38,Urgell,38,Urgell,False
+082938,Vallcebre,14,Berguedà,14,Berguedà,False
+431589,Vallclara,16,Conca de Barberà,16,Conca de Barberà,False
+252402,Vallfogona de Balaguer,23,Noguera,23,Noguera,False
+171707,Vallfogona de Ripollès,31,Ripollès,31,Ripollès,False
+431592,Vallfogona de Riucorb,16,Conca de Barberà,16,Conca de Barberà,False
+082943,Vallgorguina,41,Vallès Oriental,41,Vallès Oriental,False
+082956,Vallirana,11,Baix Llobregat,11,Baix Llobregat,False
+431606,Vallmoll,01,Alt Camp,01,Alt Camp,False
+082969,Vallromanes,41,Vallès Oriental,41,Vallès Oriental,False
+431613,Valls,01,Alt Camp,01,Alt Camp,False
+259062,"Valls d'Aguilar, les",04,Alt Urgell,04,Alt Urgell,False
+252398,"Valls de Valira, les",04,Alt Urgell,04,Alt Urgell,False
+431628,Vandellòs i l'Hospitalet de l'Infant,08,Baix Camp,08,Baix Camp,False
+259097,"Vansa i Fórnols, la",04,Alt Urgell,04,Alt Urgell,False
+082975,Veciana,06,Anoia,06,Anoia,False
+431634,"Vendrell, el",12,Baix Penedès,12,Baix Penedès,False
+172109,Ventalló,02,Alt Empordà,02,Alt Empordà,False
+252424,Verdú,38,Urgell,38,Urgell,False
+172116,Verges,10,Baix Empordà,10,Baix Empordà,False
+431649,Vespella de Gaià,36,Tarragonès,36,Tarragonès,False
+082981,Vic,24,Osona,24,Osona,False
+172121,Vidrà,24,Osona,24,Osona,False
+172137,Vidreres,34,Selva,34,Selva,False
+252430,Vielha e Mijaran,39,Aran,39,Aran,False
+431704,Vila-rodona,01,Alt Camp,01,Alt Camp,False
+172305,Vila-sacra,02,Alt Empordà,02,Alt Empordà,False
+252521,Vila-sana,27,Pla d'Urgell,27,Pla d'Urgell,False
+431711,Vila-seca,36,Tarragonès,36,Tarragonès,False
+431652,Vilabella,01,Alt Camp,01,Alt Camp,False
+172142,Vilabertran,02,Alt Empordà,02,Alt Empordà,False
+172155,Vilablareix,20,Gironès,20,Gironès,False
+082994,Vilada,14,Berguedà,14,Berguedà,False
+172174,Viladamat,02,Alt Empordà,02,Alt Empordà,False
+172168,Viladasens,20,Gironès,20,Gironès,False
+083015,Viladecans,11,Baix Llobregat,11,Baix Llobregat,False
+083008,Viladecavalls,40,Vallès Occidental,40,Vallès Occidental,False
+172180,Vilademuls,28,Pla de l'Estany,28,Pla de l'Estany,False
+172207,Viladrau,24,Osona,24,Osona,False
+172214,Vilafant,02,Alt Empordà,02,Alt Empordà,False
+083054,Vilafranca del Penedès,03,Alt Penedès,03,Alt Penedès,False
+252445,Vilagrassa,38,Urgell,38,Urgell,False
+172235,Vilajuïga,02,Alt Empordà,02,Alt Empordà,False
+431750,Vilalba dels Arcs,37,Terra Alta,37,Terra Alta,False
+083067,Vilalba Sasserra,41,Vallès Oriental,41,Vallès Oriental,False
+252458,Vilaller,05,Alta Ribagorça,05,Alta Ribagorça,False
+172240,Vilallonga de Ter,31,Ripollès,31,Ripollès,False
+431665,Vilallonga del Camp,36,Tarragonès,36,Tarragonès,False
+172253,Vilamacolum,02,Alt Empordà,02,Alt Empordà,False
+172266,Vilamalla,02,Alt Empordà,02,Alt Empordà,False
+172272,Vilamaniscle,02,Alt Empordà,02,Alt Empordà,False
+252477,Vilamòs,39,Aran,39,Aran,False
+172288,Vilanant,02,Alt Empordà,02,Alt Empordà,False
+431671,Vilanova d'Escornalbou,08,Baix Camp,08,Baix Camp,False
+252483,Vilanova de Bellpuig,27,Pla d'Urgell,27,Pla d'Urgell,False
+252496,Vilanova de l'Aguda,23,Noguera,23,Noguera,False
+252542,Vilanova de la Barca,33,Segrià,33,Segrià,False
+252509,Vilanova de Meià,23,Noguera,23,Noguera,False
+431687,Vilanova de Prades,16,Conca de Barberà,16,Conca de Barberà,False
+083036,Vilanova de Sau,24,Osona,24,Osona,False
+252516,Vilanova de Segrià,33,Segrià,33,Segrià,False
+083020,Vilanova del Camí,06,Anoia,06,Anoia,False
+089024,Vilanova del Vallès,41,Vallès Oriental,41,Vallès Oriental,False
+083073,Vilanova i la Geltrú,17,Garraf,17,Garraf,False
+431690,Vilaplana,08,Baix Camp,08,Baix Camp,False
+082140,Vilassar de Dalt,21,Maresme,21,Maresme,False
+082191,Vilassar de Mar,21,Maresme,21,Maresme,False
+172229,Vilaür,02,Alt Empordà,02,Alt Empordà,False
+431726,Vilaverd,16,Conca de Barberà,16,Conca de Barberà,False
+431732,"Vilella Alta, la",29,Priorat,29,Priorat,False
+431747,"Vilella Baixa, la",29,Priorat,29,Priorat,False
+172333,Vilobí d'Onyar,34,Selva,34,Selva,False
+083041,Vilobí del Penedès,03,Alt Penedès,03,Alt Penedès,False
+172327,Vilopriu,10,Baix Empordà,10,Baix Empordà,False
+252537,"Vilosell, el",18,Garrigues,18,Garrigues,False
+431763,Vimbodí i Poblet,16,Conca de Barberà,16,Conca de Barberà,False
+252555,Vinaixa,18,Garrigues,18,Garrigues,False
+431779,Vinebre,30,Ribera d'Ebre,30,Ribera d'Ebre,False
+431785,Vinyols i els Arcs,08,Baix Camp,08,Baix Camp,False
+083089,Viver i Serrateix,14,Berguedà,14,Berguedà,False
+430521,Xerta,09,Baix Ebre,09,Baix Ebre,False

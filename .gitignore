@@ -16,10 +16,9 @@ venv/
 # Datos y resultados generados
 # data/raw/ IS versioned (decision D-004): small public Idescat files, kept unmodified.
 # Large or restricted raw files can be excluded individually below if needed.
-data/processed/*
-reports/*
-!data/processed/.gitkeep
-!reports/.gitkeep
+# data/processed/ and reports/ are also versioned (author's request, 2026-11-26), so
+# results can be read without re-running the notebooks. Re-run the notebook before
+# committing so that outputs always match the code.
 
 # Sistema operativo y editor
 .DS_Store
