@@ -1,0 +1,688 @@
+{
+ "source": "data/raw/opendata_gencat/ajuntaments_baix_emporda.json",
+ "user_agent": "Mozilla/5.0 (compatible; academic-research-bot; TFG UPF)",
+ "agenda_pattern": "agenda|programaci[oó]|esdeveniments|calendari",
+ "senior_link_pattern": "gent[\\s_-]*gran|casal[\\s_-]*(d[\\s_'’-]*)?avis|jubilat|s[eè]nior|llar[\\s_-]*del[\\s_-]*jubilat|envelliment|persones[\\s_-]*grans",
+ "senior_text_pattern": "gent gran|casal d['’]avis|jubilat|s[eè]nior|persones grans|majors de (60|65)",
+ "results": [
+  {
+   "codi_municipi": "1700460009",
+   "municipi": "Albons",
+   "website": "http://www.albons.cat",
+   "checked_utc": "2026-11-26T20:27:22Z",
+   "home_attempts": 2,
+   "home_status": 200,
+   "home_final_url": "https://albons.cat/",
+   "home_bytes": 129335,
+   "home_error": "",
+   "agenda_links": [
+    "http://albons.cat/category/agenda/",
+    "https://albons.cat/category/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "http://albons.cat/category/agenda/",
+   "agenda_status": null,
+   "agenda_bytes": 69
+  },
+  {
+   "codi_municipi": "1701390004",
+   "municipi": "Begur",
+   "website": "http://www.begur.cat",
+   "checked_utc": "2026-11-26T20:27:54Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://begur.cat/",
+   "home_bytes": 105231,
+   "home_error": "",
+   "agenda_links": [
+    "https://begur.cat/agenda/"
+   ],
+   "senior_links": [
+    "https://begur.cat/serveis/gent-gran/"
+   ],
+   "senior_terms_on_home": 2,
+   "agenda_checked_url": "https://begur.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 137005,
+   "senior_terms_on_agenda": 1
+  },
+  {
+   "codi_municipi": "1701820002",
+   "municipi": "Bellcaire d'Empordà",
+   "website": "http://www.bellcaire.cat",
+   "checked_utc": "2026-11-26T20:28:02Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://bellcaire.cat/",
+   "home_bytes": 179663,
+   "home_error": "",
+   "agenda_links": [],
+   "senior_links": [],
+   "senior_terms_on_home": 0
+  },
+  {
+   "codi_municipi": "1702210007",
+   "municipi": "Bisbal d'Empordà",
+   "website": "http://www.labisbal.cat",
+   "checked_utc": "2026-11-26T20:28:07Z",
+   "home_attempts": 3,
+   "home_status": 403,
+   "home_final_url": "https://www.labisbal.cat",
+   "home_bytes": 0,
+   "home_error": ""
+  },
+  {
+   "codi_municipi": "1703400000",
+   "municipi": "Calonge i Sant Antoni",
+   "website": "http://www.calonge.cat",
+   "checked_utc": "2026-11-26T20:28:17Z",
+   "home_attempts": 3,
+   "home_status": null,
+   "home_final_url": "https://www.calonge.cat",
+   "home_bytes": 69,
+   "home_error": "ERROR: URLError: <urlopen error [Errno 104] Connection reset by peer>"
+  },
+  {
+   "codi_municipi": "1704860009",
+   "municipi": "Castell d'Aro, Platja d'Aro i s'Agaró",
+   "website": "http://ciutada.platjadaro.com",
+   "checked_utc": "2026-11-26T20:29:07Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://ciutada.platjadaro.com/",
+   "home_bytes": 152188,
+   "home_error": "",
+   "agenda_links": [
+    "https://agenda.platjadaro.com/",
+    "https://ciutada.platjadaro.com/wp-content/uploads/2026/01/2026CalendariContribuent-CAT.pdf",
+    "https://ciutada.platjadaro.com/wp-content/uploads/2026/01/Calendari-servei-Generalitat_2026.pdf"
+   ],
+   "senior_links": [
+    "https://ciutada.platjadaro.com/el-nadal-de-la-gent-gran-3/",
+    "https://ciutada.platjadaro.com/serveis/ciutadania/gent-gran/"
+   ],
+   "senior_terms_on_home": 2,
+   "agenda_checked_url": "https://agenda.platjadaro.com/",
+   "agenda_status": 200,
+   "agenda_bytes": 43140,
+   "senior_terms_on_agenda": 1
+  },
+  {
+   "codi_municipi": "1705580001",
+   "municipi": "Colomers",
+   "website": "http://www.colomers.cat",
+   "checked_utc": "2026-11-26T20:29:13Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://colomers.cat/",
+   "home_bytes": 161929,
+   "home_error": "",
+   "agenda_links": [
+    "https://visitemporda.com/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://visitemporda.com/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 76356,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1705770005",
+   "municipi": "Corçà",
+   "website": "http://www.corca.cat",
+   "checked_utc": "2026-11-26T20:29:27Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://corca.cat/",
+   "home_bytes": 383408,
+   "home_error": "",
+   "agenda_links": [
+    "https://corca.cat/actualitat/agenda/",
+    "https://corca.cat/actualitat/agenda/banca-mobil-a-casavells-7/",
+    "https://corca.cat/actualitat/agenda/banca-mobil-a-corca-6/",
+    "https://corca.cat/actualitat/agenda/corca-amb-la-marato-de-3cat-2/",
+    "https://corca.cat/actualitat/agenda/corca-amb-la-marato-de-3cat/",
+    "https://corca.cat/actualitat/agenda/el-campanar-agenda-especial-bones-festes/",
+    "https://corca.cat/actualitat/agenda/el-nadal-dels-poetes/",
+    "https://corca.cat/actualitat/agenda/empordanet-escena/",
+    "https://corca.cat/actualitat/agenda/festa-de-santa-llucia-de-casavells/",
+    "https://corca.cat/actualitat/agenda/festa-del-tio/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://corca.cat/actualitat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 298401,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1790110007",
+   "municipi": "Cruïlles, Monells i Sant Sadurní de l'Heura",
+   "website": "http://www.cruilles.cat",
+   "checked_utc": "2026-11-26T20:29:34Z",
+   "home_attempts": 3,
+   "home_status": null,
+   "home_final_url": "https://www.cruilles.cat",
+   "home_bytes": 69,
+   "home_error": "ERROR: URLError: <urlopen error [Errno 104] Connection reset by peer>"
+  },
+  {
+   "codi_municipi": "1706810007",
+   "municipi": "Foixà",
+   "website": "http://www.foixa.cat",
+   "checked_utc": "2026-11-26T20:29:45Z",
+   "home_attempts": 2,
+   "home_status": 200,
+   "home_final_url": "https://foixa.cat/",
+   "home_bytes": 131935,
+   "home_error": "",
+   "agenda_links": [
+    "https://foixa.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 2,
+   "agenda_checked_url": "https://foixa.cat/agenda/",
+   "agenda_status": null,
+   "agenda_bytes": 69
+  },
+  {
+   "codi_municipi": "1707080001",
+   "municipi": "Fontanilles",
+   "website": "http://www.ajfontanilles.cat",
+   "checked_utc": "2026-11-26T20:30:17Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://ajfontanilles.cat/",
+   "home_bytes": 114215,
+   "home_error": "",
+   "agenda_links": [
+    "https://visitemporda.com/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://visitemporda.com/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 76356,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1790260009",
+   "municipi": "Forallac",
+   "website": "http://www.forallac.cat",
+   "checked_utc": "2026-11-26T20:30:32Z",
+   "home_attempts": 3,
+   "home_status": 403,
+   "home_final_url": "https://www.forallac.cat",
+   "home_bytes": 0,
+   "home_error": ""
+  },
+  {
+   "codi_municipi": "1707670005",
+   "municipi": "Garrigoles",
+   "website": "http://www.garrigoles.cat",
+   "checked_utc": "2026-11-26T20:30:41Z",
+   "home_attempts": 3,
+   "home_status": 200,
+   "home_final_url": "https://garrigoles.cat/",
+   "home_bytes": 135785,
+   "home_error": "",
+   "agenda_links": [
+    "https://garrigoles.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://garrigoles.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 78130,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1708130008",
+   "municipi": "Gualta",
+   "website": "http://www.gualta.cat",
+   "checked_utc": "2026-11-26T20:31:18Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://gualta.cat/",
+   "home_bytes": 156395,
+   "home_error": "",
+   "agenda_links": [
+    "https://gualta.cat/agenda-2",
+    "https://gualta.cat/agenda/",
+    "https://visitemporda.com/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://gualta.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 104576,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1708520002",
+   "municipi": "Jafre",
+   "website": "http://www.jafre.cat",
+   "checked_utc": "2026-11-26T20:31:26Z",
+   "home_attempts": 2,
+   "home_status": 200,
+   "home_final_url": "https://jafre.cat/",
+   "home_bytes": 149039,
+   "home_error": "",
+   "agenda_links": [
+    "https://jafre.cat/agenda/",
+    "https://jafre.cat/guia-del-poble/calendari-dactivitats/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 1,
+   "agenda_checked_url": "https://jafre.cat/agenda/",
+   "agenda_status": null,
+   "agenda_bytes": 69
+  },
+  {
+   "codi_municipi": "1711000000",
+   "municipi": "Mont-ras",
+   "website": "http://www.mont-ras.cat",
+   "checked_utc": "2026-11-26T20:31:58Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://mont-ras.cat/",
+   "home_bytes": 138678,
+   "home_error": "",
+   "agenda_links": [
+    "https://mont-ras.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://mont-ras.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 82173,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1711750006",
+   "municipi": "Palafrugell",
+   "website": "http://www.palafrugell.cat",
+   "checked_utc": "2026-11-26T20:32:06Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://www.palafrugell.cat/",
+   "home_bytes": 73386,
+   "home_error": "",
+   "agenda_links": [
+    "https://cultura.palafrugell.cat/ca/programacio.html",
+    "https://www.palafrugellcultura.cat/ca/programacio.html"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://cultura.palafrugell.cat/ca/programacio.html",
+   "agenda_status": 200,
+   "agenda_bytes": 477265,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1711810007",
+   "municipi": "Palamós i Sant Joan",
+   "website": "http://www.palamos.cat",
+   "checked_utc": "2026-11-26T20:32:15Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://www.palamos.cat:443/",
+   "home_bytes": 44759,
+   "home_error": "",
+   "agenda_links": [
+    "http://documents.palamos.cat/default.aspx?cat=8",
+    "https://infopalamos.cat/agenda/",
+    "https://www.palamos.cat:443/palamos/ajuntament/agenda.aspx"
+   ],
+   "senior_links": [
+    "https://www.palamos.cat:443/palamos/ajuntament/punts.aspx?punt=p52"
+   ],
+   "senior_terms_on_home": 1,
+   "agenda_checked_url": "https://infopalamos.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 362205,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1712150006",
+   "municipi": "Palau-sator",
+   "website": "http://www.palau-sator.cat",
+   "checked_utc": "2026-11-26T20:32:22Z",
+   "home_attempts": 3,
+   "home_status": null,
+   "home_final_url": "https://www.palau-sator.cat",
+   "home_bytes": 69,
+   "home_error": "ERROR: URLError: <urlopen error [Errno 104] Connection reset by peer>"
+  },
+  {
+   "codi_municipi": "1712410007",
+   "municipi": "Pals",
+   "website": "http://www.pals.cat",
+   "checked_utc": "2026-11-26T20:33:07Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://www.pals.cat/ca/",
+   "home_bytes": 397845,
+   "home_error": "",
+   "agenda_links": [
+    "https://www.baixemporda.cat/ca/arees/recaptacio/calendari-del-contribuent/",
+    "https://www.pals.cat/ca/agenda/",
+    "https://www.visitpals.com/ca/que-fer/"
+   ],
+   "senior_links": [
+    "https://www.pals.cat/ca/arees/accio-social-salut-gent-gran-i-igualtat/"
+   ],
+   "senior_terms_on_home": 2,
+   "agenda_checked_url": "https://www.pals.cat/ca/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 233633,
+   "senior_terms_on_agenda": 2
+  },
+  {
+   "codi_municipi": "1712670005",
+   "municipi": "Parlavà",
+   "website": "http://www.parlava.cat",
+   "checked_utc": "2026-11-26T20:33:14Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://parlava.cat/",
+   "home_bytes": 155944,
+   "home_error": "",
+   "agenda_links": [
+    "https://parlava.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://parlava.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 104330,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1713060009",
+   "municipi": "Pera",
+   "website": "http://www.lapera.cat",
+   "checked_utc": "2026-11-26T20:33:22Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://www.lapera.cat/ca/",
+   "home_bytes": 240438,
+   "home_error": "",
+   "agenda_links": [
+    "https://www.lapera.cat/ca/actualitat/agenda-d-activitats/",
+    "https://www.lapera.cat/ca/guia-del-municipi/calendari-de-festes/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://www.lapera.cat/ca/actualitat/agenda-d-activitats/",
+   "agenda_status": 200,
+   "agenda_bytes": 121293,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1714470005",
+   "municipi": "Regencós",
+   "website": "http://www.regencos.cat",
+   "checked_utc": "2026-11-26T20:33:29Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://regencos.cat/",
+   "home_bytes": 158667,
+   "home_error": "",
+   "agenda_links": [
+    "http://regencos.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "http://regencos.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 110857,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1715390004",
+   "municipi": "Rupià",
+   "website": "http://www.rupia.cat",
+   "checked_utc": "2026-11-26T20:33:38Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://rupia.cat/",
+   "home_bytes": 120937,
+   "home_error": "",
+   "agenda_links": [
+    "https://rupia.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://rupia.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 79212,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1718120002",
+   "municipi": "Santa Cristina d'Aro",
+   "website": "https://santacristina.cat",
+   "checked_utc": "2026-11-26T20:33:47Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://santacristina.cat",
+   "home_bytes": 486631,
+   "home_error": "",
+   "agenda_links": [
+    "https://santacristina.cat/actualitat/agenda",
+    "https://santacristina.cat/actualitat/agenda/",
+    "https://santacristina.cat/actualitat/agenda/celebracio-del-dia-internacional-de-les-persones-amb-discapacitat/",
+    "https://santacristina.cat/actualitat/agenda/club-de-lectura-amb-lautora-terres-mortes/",
+    "https://santacristina.cat/actualitat/agenda/contes-en-familia-anem-a-cacar-un-os/",
+    "https://santacristina.cat/actualitat/agenda/llegim-teatre-lhostal-de-les-3-camelies/",
+    "https://santacristina.cat/actualitat/agenda/pindola-formativa-musica-i-tempestes/",
+    "https://santacristina.cat/actualitat/agenda/ruta-guiada-de-senderisme-coves-de-les-gavarres/",
+    "https://santacristina.cat/arees/cultura/espai-ridaura/programacio/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://santacristina.cat/actualitat/agenda",
+   "agenda_status": 200,
+   "agenda_bytes": 273692,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1716090004",
+   "municipi": "Sant Feliu de Guíxols",
+   "website": "http://ciutada.guixols.cat",
+   "checked_utc": "2026-11-26T20:33:53Z",
+   "home_attempts": 3,
+   "home_status": 403,
+   "home_final_url": "https://ciutada.guixols.cat",
+   "home_bytes": 0,
+   "home_error": ""
+  },
+  {
+   "codi_municipi": "1719100000",
+   "municipi": "Serra de Daró",
+   "website": "http://www.serradedaro.cat",
+   "checked_utc": "2026-11-26T20:34:33Z",
+   "home_attempts": 3,
+   "home_status": 200,
+   "home_final_url": "https://serradedaro.cat/",
+   "home_bytes": 119690,
+   "home_error": "",
+   "agenda_links": [
+    "https://serradedaro.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://serradedaro.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 73874,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1719590004",
+   "municipi": "Tallada d'Empordà",
+   "website": "http://www.latallada.cat",
+   "checked_utc": "2026-11-26T20:35:11Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://latallada.cat/",
+   "home_bytes": 197160,
+   "home_error": "",
+   "agenda_links": [
+    "https://latallada.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://latallada.cat/agenda/",
+   "agenda_status": null,
+   "agenda_bytes": 69
+  },
+  {
+   "codi_municipi": "1719780001",
+   "municipi": "Torrent",
+   "website": "http://www.torrent.cat",
+   "checked_utc": "2026-11-26T20:35:28Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://torrent.cat/",
+   "home_bytes": 120330,
+   "home_error": "",
+   "agenda_links": [
+    "https://torrent.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://torrent.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 66978,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1719970005",
+   "municipi": "Torroella de Montgrí",
+   "website": "http://www.torroella-estartit.cat",
+   "checked_utc": "2026-11-26T20:35:36Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://www.torroella-estartit.cat/",
+   "home_bytes": 205185,
+   "home_error": "",
+   "agenda_links": [
+    "http://www.agendatorroella.com",
+    "http://www.agendatorroella.com/",
+    "http://www.agendatorroella.com/ca/equipaments/l/espais-33.html",
+    "http://www.agendatorroella.com/ca/festes-tradicionals.html",
+    "http://www.agendatorroella.com/ca/programacio.html",
+    "http://www.agendatorroella.com/ca/programacio/c/esports-1008.html",
+    "http://www.agendatorroella.com/ca/programacio/c/exposicions-1003.html",
+    "https://www.torroella-estartit.cat/ca/ada-agenda-dactivitats.html",
+    "https://www.torroella-estartit.cat/ca/esdeveniments-anuals.html",
+    "https://www.torroella-estartit.cat/ca/esdeveniments-esportius.html"
+   ],
+   "senior_links": [
+    "https://www.torroella-estartit.cat/ca/serveis-socials-gent-gran-cementiri-i-fons-eu.html"
+   ],
+   "senior_terms_on_home": 1,
+   "agenda_checked_url": "http://www.agendatorroella.com",
+   "agenda_status": 200,
+   "agenda_bytes": 410766,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1720440003",
+   "municipi": "Ullà",
+   "website": "http://webspobles2.ddgi.cat/ulla",
+   "checked_utc": "2026-11-26T20:35:44Z",
+   "home_attempts": 3,
+   "home_status": null,
+   "home_final_url": "https://webspobles2.ddgi.cat/ulla",
+   "home_bytes": 74,
+   "home_error": "ERROR: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+  },
+  {
+   "codi_municipi": "1720570005",
+   "municipi": "Ullastret",
+   "website": "http://www.ullastret.cat",
+   "checked_utc": "2026-11-26T20:35:51Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://ullastret.cat/",
+   "home_bytes": 156791,
+   "home_error": "",
+   "agenda_links": [],
+   "senior_links": [],
+   "senior_terms_on_home": 0
+  },
+  {
+   "codi_municipi": "1720390004",
+   "municipi": "Ultramort",
+   "website": "http://www.ultramort.cat",
+   "checked_utc": "2026-11-26T20:35:57Z",
+   "home_attempts": 2,
+   "home_status": 200,
+   "home_final_url": "https://ultramort.cat/",
+   "home_bytes": 122578,
+   "home_error": "",
+   "agenda_links": [
+    "https://empordaturisme.com/agenda/",
+    "https://ultramort.cat/actualitat/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://empordaturisme.com/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 92622,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1720950006",
+   "municipi": "Vall-llobrega",
+   "website": "http://www.vall-llobrega.cat",
+   "checked_utc": "2026-11-26T20:36:21Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "http://www.vall-llobrega.cat",
+   "home_bytes": 67132,
+   "home_error": "",
+   "agenda_links": [],
+   "senior_links": [],
+   "senior_terms_on_home": 0
+  },
+  {
+   "codi_municipi": "1721160009",
+   "municipi": "Verges",
+   "website": "http://www.verges.cat",
+   "checked_utc": "2026-11-26T20:36:24Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://verges.cat/",
+   "home_bytes": 188680,
+   "home_error": "",
+   "agenda_links": [
+    "https://verges.cat/agenda/"
+   ],
+   "senior_links": [],
+   "senior_terms_on_home": 0,
+   "agenda_checked_url": "https://verges.cat/agenda/",
+   "agenda_status": 200,
+   "agenda_bytes": 149253,
+   "senior_terms_on_agenda": 0
+  },
+  {
+   "codi_municipi": "1723270005",
+   "municipi": "Vilopriu",
+   "website": "http://www.vilopriu.cat",
+   "checked_utc": "2026-11-26T20:36:32Z",
+   "home_attempts": 1,
+   "home_status": 200,
+   "home_final_url": "https://vilopriu.cat/",
+   "home_bytes": 152463,
+   "home_error": "",
+   "agenda_links": [],
+   "senior_links": [],
+   "senior_terms_on_home": 0
+  }
+ ]
+}

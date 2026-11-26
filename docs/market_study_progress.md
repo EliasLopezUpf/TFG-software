@@ -32,7 +32,8 @@ Tracker of the market-study work packages. Status: ⬜ not started · 🟨 in pr
 | Task | Status | Notes |
 |---|---|---|
 | Inventory schema | ⬜ | Fields defined in the handover (§7C) |
-| Source identification (casals registry, municipal agendas, open data) | ⬜ | |
+| Source identification (casals registry, municipal agendas, open data) | 🟨 | NB05: open agenda, facility and social-services registers, and municipal websites evaluated for Baix Empordà |
+| Online visibility check (Baix Empordà) | ✅ | NB05; scripts reusable for other comarques |
 | Pilot collection in selected territories | ⬜ | Online records are a sample, not a census |
 
 ## D — Demand research

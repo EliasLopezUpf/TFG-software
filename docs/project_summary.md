@@ -43,7 +43,8 @@ The deliverable is a rigorous feasibility study. A fully developed application i
 - **Done (exploratory, municipal level):** 2025 demographics (60+ by municipality), RFDB 2023 and ETCA 2024 for context, and a Costa Brava case study. See `docs/existing_work_review.md` for the full audit.
 - **Done (comarca level, notebook 03):** 60+/65+/75+ size and share for 43 comarques (2025), threshold sensitivity, constant-boundary trends 2011/2021–2025, Idescat projections to 2049 (three scenarios), and RFDB/ETCA context.
 - **Done (notebook 04):** context variables (living alone, urbanisation, IST, education), digital use by age (Catalonia, 16–74), five rule-based territorial profiles, proposed fieldwork comarques.
-- **Not started:** supply inventory, survey and interviews, competitors, business model.
+- **Done (notebook 05):** first supply exploration. Online visibility of activities in Baix Empordà, from open data and municipal websites.
+- **Not started:** supply inventory (schema and pilot), survey and interviews, competitors, business model.
 
 ## Established facts (verified)
 
@@ -54,6 +55,7 @@ The deliverable is a rigorous feasibility study. A fully developed application i
 - Idescat projections 2025→2040: 60+ +31 % / +36 % / +42 % (low / medium / high); positive in every comarca.
 - 28.1 % of people aged 75+ live alone (2021), about 205,000; Barcelonès 31.1 % (notebook 04).
 - Ages 65–74, Catalonia 2025: 92.7 % used the internet in the last 3 months, but 36.1 % bought online (notebook 04).
+- Baix Empordà: the open cultural agenda had 351 events in the last 12 months, none aimed at seniors (only 1 of 1,915 since 2018). Only 5 of 29 checked municipal websites link to a seniors or casal page (notebook 05).
 
 ## Observations (descriptive, exploratory)
 
@@ -68,6 +70,7 @@ The deliverable is a rigorous feasibility study. A fully developed application i
 - Organisers (especially small associations and casals) have limited channels for publicising activities.
 - Large metropolitan comarques may face a *discovery* problem (abundant supply), while small aged interior comarques may face *scarce or poorly publicised supply and mobility* problems (from notebook 03, H1).
 - Among 65–74, the digital barrier may be online *transactions* (booking, paying) rather than internet access (notebook 04, H4).
+- Senior activities exist but are fragmented and hard to find online; casals may publicise mainly offline (notebook 05, H7–H8).
 - *All must be investigated empirically; they are not assumed to be true.*
 
 ## Open questions for the tutor

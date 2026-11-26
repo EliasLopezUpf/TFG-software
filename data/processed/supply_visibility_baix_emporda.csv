@@ -1,0 +1,37 @@
+﻿mun_code,mun_name,pop_total,pop_60_plus,share_60_plus,size_class,web,events_last_12m,events_per_1000_residents,in_open_agenda_12m,has_agenda_link,has_senior_link,agenda_mentions_seniors,senior_place_in_register,reachable
+170046,Albons,852.0,252.0,29.577464788732396,"< 1,000 residents",http://www.albons.cat,2,2.347417840375587,True,True,False,False,False,True
+170139,Begur,4286.0,1437.0,33.52776481567896,"1,000–4,999",http://www.begur.cat,12,2.7998133457769483,True,True,True,True,False,True
+170182,Bellcaire d'Empordà,722.0,210.0,29.085872576177284,"< 1,000 residents",http://www.bellcaire.cat,1,1.3850415512465375,True,False,False,False,False,True
+170221,"Bisbal d'Empordà, la",11731.0,2896.0,24.686727474213622,"≥ 5,000",http://www.labisbal.cat,24,2.0458613928906315,True,False,False,False,False,False
+170340,Calonge i Sant Antoni,12268.0,3650.0,29.752200847733942,"≥ 5,000",http://www.calonge.cat,12,0.9781545484186501,True,False,False,False,False,False
+170486,"Castell d'Aro, Platja d'Aro i s'Agaró",12889.0,3484.0,27.030801458608117,"≥ 5,000",http://ciutada.platjadaro.com,21,1.6292962991698348,True,True,True,True,False,True
+170558,Colomers,206.0,80.0,38.83495145631068,"< 1,000 residents",http://www.colomers.cat,2,9.70873786407767,True,True,False,False,False,True
+170577,Corçà,1285.0,417.0,32.45136186770428,"1,000–4,999",http://www.corca.cat,12,9.33852140077821,True,True,False,False,False,True
+170681,Foixà,298.0,119.0,39.93288590604027,"< 1,000 residents",http://www.foixa.cat,0,0.0,False,True,False,False,False,True
+170708,Fontanilles,170.0,53.0,31.176470588235293,"< 1,000 residents",http://www.ajfontanilles.cat,0,0.0,False,True,False,False,False,True
+170767,Garrigoles,183.0,62.0,33.87978142076503,"< 1,000 residents",http://www.garrigoles.cat,0,0.0,False,True,False,False,False,True
+170813,Gualta,437.0,113.0,25.85812356979405,"< 1,000 residents",http://www.gualta.cat,1,2.288329519450801,True,True,False,False,False,True
+170852,Jafre,384.0,148.0,38.541666666666664,"< 1,000 residents",http://www.jafre.cat,1,2.6041666666666665,True,True,False,False,False,True
+171100,Mont-ras,1690.0,609.0,36.03550295857988,"1,000–4,999",http://www.mont-ras.cat,3,1.7751479289940828,True,True,False,False,False,True
+171175,Palafrugell,24556.0,6314.0,25.712656784492587,"≥ 5,000",http://www.palafrugell.cat,61,2.4841179345170223,True,True,False,False,False,True
+171181,Palamós i Sant Joan,18921.0,5498.0,29.057660800169124,"≥ 5,000",http://www.palamos.cat,44,2.3254584852809046,True,True,True,False,False,True
+171215,Palau-sator,320.0,104.0,32.5,"< 1,000 residents",http://www.palau-sator.cat,0,0.0,False,False,False,False,False,False
+171241,Pals,2552.0,823.0,32.24921630094044,"1,000–4,999",http://www.pals.cat,14,5.4858934169279,True,True,True,True,False,True
+171267,Parlavà,435.0,145.0,33.333333333333336,"< 1,000 residents",http://www.parlava.cat,0,0.0,False,True,False,False,False,True
+171306,"Pera, la",449.0,135.0,30.066815144766146,"< 1,000 residents",http://www.lapera.cat,4,8.908685968819599,True,True,False,False,False,True
+171447,Regencós,274.0,91.0,33.21167883211679,"< 1,000 residents",http://www.regencos.cat,0,0.0,False,True,False,False,False,True
+171539,Rupià,323.0,84.0,26.006191950464395,"< 1,000 residents",http://www.rupia.cat,1,3.0959752321981426,True,True,False,False,False,True
+171609,Sant Feliu de Guíxols,23060.0,6455.0,27.992194275802255,"≥ 5,000",http://ciutada.guixols.cat,31,1.3443191673894188,True,False,False,False,False,False
+171812,Santa Cristina d'Aro,5972.0,1564.0,26.188881446751505,"≥ 5,000",https://santacristina.cat,25,4.186202277294039,True,True,False,False,False,True
+171910,Serra de Daró,241.0,66.0,27.38589211618257,"< 1,000 residents",http://www.serradedaro.cat,1,4.149377593360996,True,True,False,False,False,True
+171959,"Tallada d'Empordà, la",485.0,163.0,33.608247422680414,"< 1,000 residents",http://www.latallada.cat,0,0.0,False,True,False,False,False,True
+171978,Torrent,181.0,60.0,33.149171270718234,"< 1,000 residents",http://www.torrent.cat,0,0.0,False,True,False,False,False,True
+171997,Torroella de Montgrí,12507.0,3366.0,26.91292875989446,"≥ 5,000",http://www.torroella-estartit.cat,66,5.277044854881266,True,True,True,False,True,True
+172039,Ultramort,218.0,70.0,32.11009174311926,"< 1,000 residents",http://www.ultramort.cat,0,0.0,False,True,False,False,False,True
+172044,Ullà,1256.0,259.0,20.621019108280255,"1,000–4,999",http://webspobles2.ddgi.cat/ulla,0,0.0,False,False,False,False,False,False
+172057,Ullastret,252.0,71.0,28.174603174603174,"< 1,000 residents",http://www.ullastret.cat,18,71.42857142857143,True,False,False,False,False,True
+172095,Vall-llobrega,902.0,206.0,22.838137472283815,"< 1,000 residents",http://www.vall-llobrega.cat,0,0.0,False,False,False,False,False,True
+172116,Verges,1160.0,372.0,32.06896551724138,"1,000–4,999",http://www.verges.cat,4,3.4482758620689653,True,True,False,False,True,True
+172327,Vilopriu,220.0,76.0,34.54545454545455,"< 1,000 residents",http://www.vilopriu.cat,0,0.0,False,False,False,False,False,True
+179011,"Cruïlles, Monells i Sant Sadurní de l'Heura",1347.0,451.0,33.48181143281366,"1,000–4,999",http://www.cruilles.cat,1,0.7423904974016332,True,False,False,False,False,False
+179026,Forallac,1786.0,560.0,31.35498320268757,"1,000–4,999",http://www.forallac.cat,2,1.1198208286674132,True,False,False,False,False,False

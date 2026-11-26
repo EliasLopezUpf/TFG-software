@@ -98,3 +98,23 @@ Chronological record of research work. Newest entries at the bottom. Each entry:
 **Hypotheses raised:** H4 (online transaction, not access, is the digital barrier for 65–74); H5 (people 75+ living alone concentrated in Barcelona); H6 (rural supply less visible online).
 
 **Correction:** the NB02 name fix "Palamós i Sant Joan" → "Palamós" reflects a municipal rename (noted in `existing_work_review.md`).
+
+## 2026-11-26 — Notebook 05: online visibility of activity supply, Baix Empordà (Claude Code)
+
+**Goal:** a brief exploration of how much of the activity offer for seniors is visible online in one comarca (Baix Empordà, the P2 candidate).
+
+**Data work:**
+- New `scripts/download_open_data.py` (Generalitat open data, Socrata API; personal fields excluded) downloads DS-17 to DS-20: the cultural agenda, facilities, social services, and town hall websites.
+- New `scripts/check_municipal_websites.py` (DS-21) makes a minimal automated check of the 36 municipal websites. It reached 29 sites; 7 were blocked or reset the connection.
+- Found 303 exact duplicate rows in the agenda (2,454 rows → 1,915 distinct events), so events are counted by distinct code (D-021).
+- Tightened the "senior venue" signal after finding that broad name matching caught health centres and generic casals.
+
+**Main results:**
+- Open agenda: 351 events in the last 12 months, in 24 of 36 municipalities (where 96.5 % of the comarca's seniors live). Only 8 of 1,915 events since 2018 mention seniors, 1 is aimed at them, and none in the last 12 months.
+- Registers: 0 facilities in the category "Casals de gent gran" in the comarca (16 in all Catalonia, across 7 comarques). 2 senior leisure venues appear under generic culture categories. 25 senior services, all care.
+- Websites: 25 of 29 link to an agenda, 5 to a seniors or casal page, and 3 agenda pages mention seniors. No municipality under 1,000 residents has a seniors page.
+- Senior-specific signals cover municipalities where 9–36 % of the comarca's seniors live.
+
+**Hypotheses:** H7 (supply fragmented and hard to find online), H8 (casals publicise offline), H9 (small municipalities rely on comarca-level or shared provision).
+
+**Next:** inventory schema; pilot with municipal senior pages and direct contact with casals; repeat the visibility check in the P1 and P4 candidates.
