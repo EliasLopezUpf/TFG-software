@@ -86,3 +86,4 @@ Source: **Idescat** (Institut d'Estadística de Catalunya). Reuse is subject to 
 | [`docs/data_sources.md`](docs/data_sources.md) | Dataset registry: source, period, granularity, licence |
 | [`docs/market_study_progress.md`](docs/market_study_progress.md) | Work-package tracker |
 | [`docs/existing_work_review.md`](docs/existing_work_review.md) | Audit of notebooks 01–02 |
+| [`docs/notebook_03_summary.md`](docs/notebook_03_summary.md) | Plain-language summary of notebook 03 (results, method, limitations) |
