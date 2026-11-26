@@ -40,3 +40,16 @@ Chronological record of research work. Newest entries at the bottom. Each entry:
 **Limitations of this audit:** the notebooks were not re-executed (no data available in the container). The findings are based on code and stored outputs.
 
 **Open questions:** raw-data versioning policy (D-004), whether to fix notebooks 01 and 02 in place or supersede them (D-005), and the repository structure (D-006).
+
+## 2026-11-26 — Comarca-level datasets received and validated (Claude Code)
+
+**Done:**
+- The author uploaded three Idescat comarca-level files: 2025 census by five-year age group and sex, 2023 RFDB (provisional), and 2024 ETCA by quarter. They are stored unmodified in `data/raw/comarca/` with SHA-256 checksums and registered as DS-04 to DS-06 in `docs/data_sources.md`.
+- Structural validation: no duplicates or missing values (apart from the Catalonia ETCA row), age and sex subtotals are consistent, and the comarques reconcile with the Catalonia totals in all three files. Territorial names are identical across the files (43 units).
+
+**Observations:**
+- Comarca RFDB has full coverage. This addresses the roughly 50 % municipal coverage problem in notebook 02.
+- The five-year age groups allow exact 60+, 65+ and 75+ aggregates.
+- The ETCA file's resident population (8,012,231) differs from the 2025 census (8,124,126). The two must not be mixed as denominators.
+
+**Pending:** the download URLs and dates were not recorded by the author. The ETCA reference year was taken from the author's description, not from the file. No historical series or projections have been obtained yet.

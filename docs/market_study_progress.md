@@ -2,15 +2,15 @@
 
 Tracker of the market-study work packages. Status: ⬜ not started · 🟨 in progress / exploratory · ✅ done and validated
 
-*Last updated: 2026-11-25*
+*Last updated: 2026-11-26*
 
 ## A — Demographic market sizing by comarca
 
 | Task | Status | Notes |
 |---|---|---|
 | 60+ population and share by municipality, 2025 | 🟨 | NB01. Has a Catalunya-row issue; not re-run since |
-| Municipality → comarca mapping (by code) | ⬜ | Needed for everything below |
-| 60+ / 65+ / 75+ by comarca, absolute and % | ⬜ | |
+| Municipality → comarca mapping (by code) | ⬜ | Needed for municipal detail; comarca tables now available directly |
+| 60+ / 65+ / 75+ by comarca, absolute and % | 🟨 | Data received and validated (DS-04); analysis not started |
 | Historical series by comarca and age | ⬜ | Source to identify (Idescat) |
 | Growth: absolute, relative, change in share | ⬜ | |
 | Official projections by comarca and age | ⬜ | Source to identify (Idescat) |
@@ -20,8 +20,8 @@ Tracker of the market-study work packages. Status: ⬜ not started · 🟨 in pr
 
 | Task | Status | Notes |
 |---|---|---|
-| Socioeconomic context (RFDB) | 🟨 | Municipal level, 2023, ~50 % coverage. Prefer comarca-level RFDB. |
-| Seasonal population (ETCA) | 🟨 | Municipal level, 2024. Not age-specific. |
+| Socioeconomic context (RFDB) | 🟨 | Comarca RFDB 2023 received (DS-05), full coverage |
+| Seasonal population (ETCA) | 🟨 | Comarca ETCA 2024 received (DS-06). Not age-specific. |
 | Density, ageing/dependency indices, other variables | ⬜ | |
 | Clustering (only if justified after EDA) | ⬜ | |
 
