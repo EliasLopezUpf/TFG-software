@@ -95,3 +95,4 @@ Source: **Idescat** (Institut d'Estadística de Catalunya). Reuse is subject to 
 | [`docs/market_study_progress.md`](docs/market_study_progress.md) | Work-package tracker |
 | [`docs/existing_work_review.md`](docs/existing_work_review.md) | Audit of notebooks 01–02 |
 | [`docs/notebook_03_summary.md`](docs/notebook_03_summary.md) | Plain-language summary of notebook 03 (results, method, limitations) |
+| [`docs/notebook_05_summary.md`](docs/notebook_05_summary.md) | Plain-language summary of notebook 05 (online visibility of senior activity supply, Baix Empordà) |
