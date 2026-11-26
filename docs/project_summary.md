@@ -1,6 +1,6 @@
 # Project Summary
 
-*Last updated: 2026-11-25. Sources: `CLAUDE.md`, `docs/TFG_Project_Summary_Claude_Code_Handover.docx` (Nov 2026), and inspection of the repository.*
+*Last updated: 2026-11-26. Sources: `CLAUDE.md`, `docs/TFG_Project_Summary_Claude_Code_Handover.docx` (Nov 2026), and inspection of the repository.*
 
 ## Concept
 
@@ -29,7 +29,7 @@ The deliverable is a rigorous feasibility study. A fully developed application i
 ## Roadmap (from the handover)
 
 1. Define scope, research question, population and methodology with the tutor.
-2. Demographic and territorial market analysis by comarca. ← **next**
+2. Demographic and territorial market analysis by comarca. ← **demographic part done (notebook 03)**; context variables pending
 3. Demand research: survey and interviews.
 4. Activity supply and competitor research.
 5. Synthesis into segments and an evidence-based value proposition.
@@ -41,23 +41,30 @@ The deliverable is a rigorous feasibility study. A fully developed application i
 ## Current state (summary)
 
 - **Done (exploratory, municipal level):** 2025 demographics (60+ by municipality), RFDB 2023 and ETCA 2024 for context, and a Costa Brava case study. See `docs/existing_work_review.md` for the full audit.
-- **Not started:** comarca analysis, trends and projections, supply inventory, survey, business model.
+- **Done (comarca level, notebook 03):** 60+/65+/75+ size and share for 43 comarques (2025), threshold sensitivity, constant-boundary trends 2011/2021–2025, Idescat projections to 2049 (three scenarios), and RFDB/ETCA context.
+- **Not started:** additional context variables, supply inventory, survey and interviews, competitors, business model.
 
 ## Established facts (verified)
 
 - Catalonia's census population on 1 Jan 2025 was 8,124,126, of whom 2,106,500 (25.93 %) were 60+ (Idescat census, notebook 01).
-- 60–74: 16.05 %, 75–84: 6.85 %, 85+: 3.02 % of the population (shares only; see the review for the double-counting issue in the absolute counts).
+- 65+: 1,601,987 (19.72 %); 75+: 802,324 (9.88 %); 60–74: 1,304,176 (16.05 %) (notebook 03).
+- Three comarques (Barcelonès, Vallès Occidental, Baix Llobregat) hold 51 % of Catalonia's 60+ residents; ten hold 76 %.
+- 2021→2025 (constant boundaries): 60+ +8.7 % against +4.8 % for the total population; growth in all 43 comarques.
+- Idescat projections 2025→2040: 60+ +31 % / +36 % / +42 % (low / medium / high); positive in every comarca.
 
 ## Observations (descriptive, exploratory)
 
 - Small municipalities often have very high shares of 60+ residents (e.g. Colera 45 %, Portbou 41.5 %) but very small absolute numbers. Both absolute size and concentration matter.
 - Costa Brava municipalities have a positive seasonal population load (ETCA). This is not age-specific.
+- At comarca level, absolute size and senior share point to different territories (Spearman −0.58). The most aged comarques are small and interior, and their senior population grows slowly. The largest and fastest-growing senior populations are in the metropolitan ring and on the coast.
+- The Costa Brava comarques are mid-sized senior markets with near-average shares: not demographically exceptional.
 
 ## Hypotheses (not yet tested)
 
 - Seniors face information-discovery barriers for local activities.
 - Organisers (especially small associations and casals) have limited channels for publicising activities.
-- *Both must be investigated empirically; they are not assumed to be true.*
+- Large metropolitan comarques may face a *discovery* problem (abundant supply), while small aged interior comarques may face *scarce or poorly publicised supply and mobility* problems (from notebook 03, H1).
+- *All must be investigated empirically; they are not assumed to be true.*
 
 ## Open questions for the tutor
 

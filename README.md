@@ -12,53 +12,37 @@ Data Science Bachelor's Thesis (UPF). This is a data-driven feasibility study an
 |---|---|---|
 | `notebooks/01_demographic_analysis.ipynb` | 2025 population by age and municipality (Idescat census); 60+ share; Costa Brava sample | Exploratory. Known issues, see [review](docs/existing_work_review.md) |
 | `notebooks/02_socioeconomic_analysis.ipynb` | RFDB 2023, ETCA seasonal population 2024; Costa Brava case | Exploratory. Known issues, see [review](docs/existing_work_review.md) |
+| `notebooks/03_comarca_demographics.ipynb` | **Comarca level:** 60+/65+/75+ size and share (2025), concentration, threshold sensitivity, constant-boundary trends 2011/2021–2025, Idescat projections to 2049, income and seasonal context | Validated; runs top to bottom |
 
-Next step: demographic market sizing **by comarca** (see [`docs/market_study_progress.md`](docs/market_study_progress.md)).
+Next steps: context variables, choice of comarques for fieldwork, supply inventory (see [`docs/market_study_progress.md`](docs/market_study_progress.md)).
 
 ## Repository structure
 
-Current:
-
 ```
 .
-├── CLAUDE.md                 # Instructions for the AI agent
+├── CLAUDE.md                     # Instructions for the AI agent
 ├── README.md
-├── requirements.txt          # pip freeze (Windows); see "Setup"
+├── requirements.txt              # pip freeze (Windows); see "Setup"
 ├── data/
-│   ├── raw/                  # Original downloads (gitignored, never modified)
-│   └── processed/            # Notebook outputs (gitignored)
-├── docs/
-│   ├── project_summary.md
-│   ├── research_log.md
-│   ├── decisions_log.md
-│   ├── data_sources.md       # Dataset registry and provenance
-│   ├── market_study_progress.md
-│   ├── existing_work_review.md
-│   └── TFG_Project_Summary_Claude_Code_Handover.docx
+│   ├── raw/                      # Original files, unmodified, VERSIONED (decision D-004)
+│   │   ├── comarca/              # Idescat comarca files downloaded manually by the author
+│   │   └── idescat_api/          # Idescat API downloads + MANIFEST.csv (URL, time, SHA-256)
+│   └── processed/                # Notebook outputs (gitignored, regenerable)
+├── docs/                         # Project documentation (see below)
 ├── notebooks/
-│   ├── 01_demographic_analysis.ipynb
-│   └── 02_socioeconomic_analysis.ipynb
-└── reports/                  # Generated outputs (gitignored)
+│   ├── 01_demographic_analysis.ipynb      # exploratory, municipal (kept as-is)
+│   ├── 02_socioeconomic_analysis.ipynb    # exploratory, municipal (kept as-is)
+│   └── 03_comarca_demographics.ipynb      # comarca-level senior population
+├── scripts/
+│   └── download_idescat.py       # Reproducible download of the Idescat API tables
+├── src/tfg/                      # Reusable code
+│   ├── idescat.py                # JSON-stat reader, age-group helpers
+│   ├── paths.py                  # Project paths
+│   └── territory.py              # Municipality → comarca mapping (division of 1 Jan 2025)
+└── reports/                      # Generated figures and tables (gitignored)
 ```
 
-Proposed additions (decision D-006, *pending approval*; folders are created only when first needed, and nothing existing is moved):
-
-```
-data/
-├── raw/<source>/             # One subfolder per source (e.g. idescat_censph/)
-├── external/                 # Small official reference tables (e.g. municipality→comarca codes), committed
-├── interim/                  # Intermediate cleaned tables (gitignored)
-└── processed/                # Analysis-ready tables (gitignored)
-notebooks/
-├── 01_…, 02_…                # Kept as-is (exploratory, superseded later)
-├── 03_comarca_demographics.ipynb
-└── …                         # NN_short_topic.ipynb, numbered in execution order
-src/tfg/                      # Reusable Python code (paths, loaders, harmonisation, validation)
-scripts/                      # Data download scripts (record URL, date, checksum)
-reports/
-├── figures/
-└── tables/
-```
+Possible later additions, created only when needed: `data/external/` (small reference tables), `data/interim/`, `reports/tables/`.
 
 ## Setup
 
@@ -72,13 +56,25 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-`requirements.txt` includes `pywinpty`, which installs only on Windows. On Linux or macOS, remove that line before installing.
+`requirements.txt` includes `pywinpty`, which installs only on Windows. On Linux or macOS, remove that line, or install just the packages the notebooks need:
+
+```bash
+pip install pandas==3.1.0 numpy==2.5.4 matplotlib==3.11.2 jupyter
+```
 
 ## Data
 
-No data is stored in Git (`data/raw/` and `data/processed/` are gitignored). To run the notebooks, download the raw files listed in [`docs/data_sources.md`](docs/data_sources.md) into `data/raw/` using the exact filenames given there, then run the notebooks in numerical order (notebook 02 reads notebook 01's output).
+The raw data is in the repository (`data/raw/`), so notebooks 03+ run directly after cloning. To re-download the Idescat API tables (this updates `data/raw/idescat_api/MANIFEST.csv`):
 
-Sources: Idescat (Institut d'Estadística de Catalunya). Reuse is subject to Idescat's terms (attribution required).
+```bash
+python scripts/download_idescat.py --force
+```
+
+Notebooks 01–02 use municipal files that are not in the repository; see [`docs/data_sources.md`](docs/data_sources.md) (DS-01 to DS-03).
+
+Run the notebooks in numerical order. Notebook 03 is independent of 01–02.
+
+Source: **Idescat** (Institut d'Estadística de Catalunya). Reuse is subject to Idescat's terms: attribution is required, and data must not be altered when presented. See [`docs/data_sources.md`](docs/data_sources.md).
 
 ## Documentation
 

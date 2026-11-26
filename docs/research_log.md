@@ -53,3 +53,26 @@ Chronological record of research work. Newest entries at the bottom. Each entry:
 - The ETCA file's resident population (8,012,231) differs from the 2025 census (8,124,126). The two must not be mixed as denominators.
 
 **Pending:** the download URLs and dates were not recorded by the author. The ETCA reference year was taken from the author's description, not from the file. No historical series or projections have been obtained yet.
+
+## 2026-11-26 — Notebook 03: senior population by comarca (Claude Code)
+
+**Goal:** comarca-level demographic sizing (60+, 65+, 75+): size, concentration, threshold sensitivity, trends, projections and socioeconomic context.
+
+**Data work:**
+- Wrote `scripts/download_idescat.py` (Idescat Tables API v2, JSON-stat), with a manifest of URLs, times and SHA-256. Downloaded the census by comarca (2011, 2021–2025), the census by municipality (same years), the comarca population estimates (2012–2025), the base-2024 projections (three scenarios) and the municipality → comarca code list (DS-07 to DS-11).
+- Discarded approach: municipal population estimates (`ep`) give age detail for only 25 municipalities before 2021. The download was replaced by the municipal census, which is complete for 2011 and 2021–2025.
+- Found that the Idescat code list already applies Llei 7/2025 (Aiguafreda: Vallès Oriental → Osona). This was reverted to the 1 Jan 2025 division (D-011). The rebuilt comarques then match the published 2024–2025 tables exactly. In 2011 and 2021–2023 the only differences are the documented boundary changes (Moianès, Lluçanès, Biosca and Torà) plus rounding in the 2011 census.
+- Reusable code in `src/tfg/`: JSON-stat reader, paths, territorial mapping.
+- Raw data is now versioned (D-004 adopted).
+
+**Main results** (facts; details and caveats in the notebook):
+- 1 Jan 2025: 2,106,500 residents aged 60+ (25.93 %), 1,601,987 aged 65+ (19.72 %) and 802,324 aged 75+ (9.88 %).
+- Concentration: 3 comarques hold 51 % of all 60+ residents, 10 hold 76 %, and Barcelonès alone 30 %. Shares range from 22.1 % (Gironès) to 36.5 % (Terra Alta). Size vs share: Spearman −0.58.
+- Rankings are robust to the threshold: size ρ ≥ 0.998; share ρ = 0.92–0.98; top 10 overlap 9–10 of 10.
+- 2021→2025 (constant boundaries): 60+ +169,362 (+8.7 %) against +4.8 % for the total population. 60+ grew in all 43 comarques, and its share rose in 42 (not in Barcelonès). Growth was fastest in the metropolitan ring and coastal comarques, and slowest in the most aged ones (share vs growth: ρ = −0.70).
+- Projections 2025→2040: 60+ +31 % (low), +36 % (medium) and +42 % (high). Growth is positive in every comarca and scenario. Medium scenario: 2.87 M aged 60+ (32.9 %) in 2040.
+- Context (descriptive): RFDB is ρ = 0.39 with size and ρ = −0.34 with share. ETCA is essentially unrelated to share (ρ = 0.18).
+
+**Limitations:** population ≠ demand; methodological break in the 2011 census; projections are scenarios; residents only (seasonal seniors are not captured); context indicators are not age-specific.
+
+**Open questions for the tutor:** primary threshold; reference projection scenario (D-014); selection of comarques for fieldwork.

@@ -14,10 +14,10 @@ venv/
 !.env.example
 
 # Datos y resultados generados
-data/raw/*
+# data/raw/ IS versioned (decision D-004): small public Idescat files, kept unmodified.
+# Large or restricted raw files can be excluded individually below if needed.
 data/processed/*
 reports/*
-!data/raw/.gitkeep
 !data/processed/.gitkeep
 !reports/.gitkeep
 

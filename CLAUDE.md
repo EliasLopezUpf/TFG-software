@@ -216,13 +216,17 @@ The business model must emerge from the research, rather than being predetermine
 *Added 2026-11-25 after the initial repository audit. Keep this section current.*
 
 ### Current layout
-- `notebooks/01_demographic_analysis.ipynb`, `notebooks/02_socioeconomic_analysis.ipynb`: exploratory, municipal level. **Do not edit in place** (proposed decision D-005). Fix their known issues in new notebooks.
-- `data/raw/`, `data/processed/`, `reports/` are **gitignored**. No data is in Git. Expected raw filenames are listed in `docs/data_sources.md`.
-- The proposed structure (`data/external`, `data/interim`, `src/tfg`, `scripts`, `reports/figures|tables`) is described in `README.md` and is pending approval (D-006).
+- `notebooks/01_…`, `02_…`: exploratory, municipal level. **Do not edit in place** (D-005). Their known issues are fixed in later notebooks.
+- `notebooks/03_comarca_demographics.ipynb`: comarca-level senior population (size, share, trends at constant boundaries, projections, context). Its exported tables in `data/processed/comarca_*.csv` are the starting point for later comarca work.
+- `data/raw/` is **versioned** (D-004). `data/raw/idescat_api/` is produced by `scripts/download_idescat.py`, with `MANIFEST.csv`. `data/raw/comarca/` holds files the author downloaded manually. `data/processed/` and `reports/` are gitignored (regenerable).
+- Reusable code lives in `src/tfg/` (`idescat.read_jsonstat`, `territory.municipality_to_comarca_2025`, `paths`). Notebooks import it via `sys.path.insert(0, PROJECT_ROOT / "src")`.
+- A local `.venv` (gitignored) with the pinned versions from `requirements.txt` is used to execute notebooks: `jupyter nbconvert --to notebook --execute --inplace`.
 
 ### Known pitfalls in the data (see `docs/existing_work_review.md`)
 - Idescat municipal exports include an aggregate `Catalunya` row. **Always remove aggregate rows** before summing municipalities, and assert the result reconciles with the official total.
 - Join territorial data by **6-digit municipal code**, not by name, wherever codes are available.
+- Comarca boundaries change over time (Moianès 2015; Lluçanès and Biosca/Torà 2023; Aiguafreda → Osona by Llei 7/2025). Use the **1 Jan 2025 division** (`src/tfg/territory.py`, D-011), and build time series from municipal data at constant boundaries (D-012).
+- The Idescat API returns at most 20,000 values per request. Split requests (see `scripts/download_idescat.py`) and do not re-request data you already have (API terms).
 - Reference years differ across sources (census 2025, RFDB 2023 provisional, ETCA 2024). State the year of every indicator.
 - RFDB and ETCA only cover municipalities with ≥1,000 inhabitants. Prefer Idescat's comarca-level tables over aggregating incomplete municipal data.
 - RFDB is all-household income (not senior income). ETCA is all-age population load (not senior tourism).
